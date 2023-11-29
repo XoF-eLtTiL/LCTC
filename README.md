@@ -5,7 +5,7 @@
 
 ## 安裝方法
 1. 先安裝 BepInEx 到主資料夾
-2. 到 [Release](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/lastest) 下載 LCTC_X.X.X.zip
+2. 到 [Release](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/lastest) 下載 LCTC_X.X.X.zip
 3. 將壓縮黨內的檔案解壓縮到主資料夾
 
 
