@@ -1,5 +1,10 @@
 # Lethal Company 繁體中文化 By XoFKon 狐Kon
 
+## 這是手動安裝版本，你需要安裝
+- [BepInEx]https://github.com/BepInEx/BepInEx
+
+
+
 ## 狀態: 目前是 Alpha 測試，可能還有大量文本沒有翻譯到，需要玩家反饋
 
 ### 問題回報
