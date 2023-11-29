@@ -1,5 +1,7 @@
 # Lethal Company 繁體中文化 By XoFKon 狐Kon
 
+# 警告：如果要做整合模組包，請標記原作者，否則這個將不會繼續更新
+
 ## 這是手動安裝版本，你需要安裝
 - [BepInEx]https://github.com/BepInEx/BepInEx
 
