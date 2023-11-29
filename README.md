@@ -3,6 +3,11 @@
 ## 這是手動安裝版本，你需要安裝
 - [BepInEx]https://github.com/BepInEx/BepInEx
 
+## 安裝方法
+1. 先安裝 BepInEx 到主資料夾
+2. 到 [Release](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/lastest) 下載 LCTC_X.X.X.zip
+3. 將壓縮黨內的檔案解壓縮到主資料夾
+
 
 
 ## 狀態: 目前是 Alpha 測試，可能還有大量文本沒有翻譯到，需要玩家反饋
