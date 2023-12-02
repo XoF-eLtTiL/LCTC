@@ -12,8 +12,9 @@
 ## **懶人安裝：**
 - 需要搭配模組安裝器。
   - [Thunderstore Mod Manager 安裝連結](https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager)
+   - [[Thunderstore Mod Manager 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/Lethal_Company_Traditional_Chinese_Localization/)
   - [r2modman 安裝連結](https://thunderstore.io/package/ebkr/r2modman/)
-- [Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/Lethal_Company_Traditional_Chinese_Localization/)
+   - [r2modman 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/Lethal_Company_Traditional_Chinese_Localization/)
 
 ## **手動安裝方法：**
 1. 下載模組載入器 [BepInEx_x64_XX.XX.X.zip](https://github.com/BepInEx/BepInEx/releases/latest) 
