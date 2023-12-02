@@ -16,7 +16,7 @@
 - [Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/Lethal_Company_Traditional_Chinese_Localization/)
 
 ## **手動安裝方法：**
-1. 下載模組載入器 BepInEx_x64_XX.XX.X.zip。
+1. 下載模組載入器 [BepInEx_x64_XX.XX.X.zip](https://github.com/BepInEx/BepInEx/releases/latest) 
 2. 將下載的 BepInEx_x64_XX.XX.X.zip 解壓縮並安裝到遊戲主資料夾下。
 3. 下載 [LCTC_X.X.X.zip 中文模組安裝包](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/latest)。
 4. 解壓縮 LCTC_X.X.X.zip 到 Lethal Company 遊戲資料夾下。
