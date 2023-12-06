@@ -24,7 +24,7 @@
 3. 下載 [LCTC_X.X.X.zip 中文模組安裝包](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/latest)。
 4. 解壓縮 LCTC_X.X.X.zip 到 Lethal Company 遊戲資料夾下。
 
-### 手端安裝現在有對應的自動安裝 [點此下載](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/download/1.1.6/LCTC.exe)
+### 手動安裝現在有對應的自動安裝 [點此下載](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/download/1.1.6/LCTC.exe)
 
 ## **狀態：**
 - 目前處於 Alpha 測試階段，可能有大量文本尚未翻譯，需要玩家反饋。
