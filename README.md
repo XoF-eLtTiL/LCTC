@@ -45,11 +45,11 @@
 請隨時更新您的版本，以獲得最佳體驗和最新的翻譯內容。
 
 # 預覽
-align=center][img=https://truth.bahamut.com.tw/s01/202312/cffd10f4ac1e7d73f95a67f6549c7abd.JPG]
-[img=https://truth.bahamut.com.tw/s01/202312/85762961298578caf8abe0d7523accdf.PNG]
-[img=https://truth.bahamut.com.tw/s01/202312/6bdc095a97f3c580db57f2f0598265ac.JPG]
-[img=https://truth.bahamut.com.tw/s01/202312/90f3a7e4233735ce14ad80620f347016.JPG]
-[img=https://truth.bahamut.com.tw/s01/202312/a2884d874e4ff76f8ce8ab3e6371f99c.JPG]
-[img=https://truth.bahamut.com.tw/s01/202312/b84e490b405107d50929434df282fe70.JPG]
-[img=https://truth.bahamut.com.tw/s01/202312/423de9be8b7929b695d3c3fae4224096.JPG]
-[img=https://truth.bahamut.com.tw/s01/202312/c44ccccac1656c71b4aa408ec6921865.JPG][/div][/h2][/div]
+https://truth.bahamut.com.tw/s01/202312/cffd10f4ac1e7d73f95a67f6549c7abd.JPG
+https://truth.bahamut.com.tw/s01/202312/85762961298578caf8abe0d7523accdf.PNG
+https://truth.bahamut.com.tw/s01/202312/6bdc095a97f3c580db57f2f0598265ac.JPG
+https://truth.bahamut.com.tw/s01/202312/90f3a7e4233735ce14ad80620f347016.JPG
+https://truth.bahamut.com.tw/s01/202312/a2884d874e4ff76f8ce8ab3e6371f99c.JPG
+https://truth.bahamut.com.tw/s01/202312/b84e490b405107d50929434df282fe70.JPG
+https://truth.bahamut.com.tw/s01/202312/423de9be8b7929b695d3c3fae4224096.JPG
+https://truth.bahamut.com.tw/s01/202312/c44ccccac1656c71b4aa408ec6921865.JPG
