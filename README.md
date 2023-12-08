@@ -1,4 +1,4 @@
-# 致命公司繁體中文化 By XoFKon
+# Lethal Company 致命公司繁體中文化 By XoFKon
 
 ## **警告：**
 - 要做成模組整合包可以，請標註原作者。
