@@ -1,4 +1,4 @@
-# Lethal Company 繁體中文化 By XoFKon 狐Kon
+![image](https://truth.bahamut.com.tw/s01/202312/e0f42ee9687090a67e83aa95be743793.JPG)
 
 ## **警告：**
 - 要做成模組整合包可以，請標註原作者。
@@ -21,10 +21,12 @@
 ## **手動安裝方法：**
 1. 下載模組載入器 [BepInEx_x64_XX.XX.X.zip](https://github.com/BepInEx/BepInEx/releases/latest) 
 2. 將下載的 BepInEx_x64_XX.XX.X.zip 解壓縮並安裝到遊戲主資料夾下。
-3. 下載 [LCTC_X.X.X.zip 中文模組安裝包](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/latest)。
-4. 解壓縮 LCTC_X.X.X.zip 到 Lethal Company 遊戲資料夾下。
+3. 下載 [LCTC_X.X.X.zip 中文模組安裝包](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/latest) 和 [Lethal.Company_Data.zip UI 額外安裝包](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/download/1.1.7/Lethal.Company_Data.zip)
+4. 解壓縮 LCTC_X.X.X.zip 和 Lethal.Company_Data.zip 到 Lethal Company 遊戲資料夾下。
 
 ### 手動安裝現在有對應的自動安裝 [點此下載](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/download/1.1.7/LCTC.exe)
+
+![image](https://truth.bahamut.com.tw/s01/202312/08d601fe64c5ca8de3ae29f95a476172.PNG)
 
 ## **狀態：**
 - 目前處於 Alpha 測試階段，可能有大量文本尚未翻譯，需要玩家反饋。
