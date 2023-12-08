@@ -1,4 +1,4 @@
-![image](https://truth.bahamut.com.tw/s01/202312/e0f42ee9687090a67e83aa95be743793.JPG)
+# 致命公司繁體中文化 By XoFKon
 
 ## **警告：**
 - 要做成模組整合包可以，請標註原作者。
