@@ -25,7 +25,7 @@
 4. 解壓縮 LCTC_X.X.X.zip 和 Lethal.Company_Data.zip 到 Lethal Company 遊戲資料夾下。
 
 ### 手動安裝現在有對應的自動安裝 [點此下載](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/download/1.1.7/LCTC.exe)
-### 因為 PS 腳本都會被 Windows 當作病毒 這是 Bat 批次黨版本[點此下在](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/download/1.1.7/LCTC_Installer.bat)
+### 因為 PS 腳本都會被 Windows 當作病毒 這是 Bat 批次黨版本 [點此下載](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/download/1.1.7/LCTC_Installer.bat)
 
 ![image](https://truth.bahamut.com.tw/s01/202312/08d601fe64c5ca8de3ae29f95a476172.PNG)
 
