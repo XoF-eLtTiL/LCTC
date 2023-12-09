@@ -15,7 +15,8 @@
     - [Thunderstore Mod Manager 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/Lethal_Company_Traditional_Chinese_Localization/)
   - [r2modman 安裝連結](https://thunderstore.io/package/ebkr/r2modman/)
     - [r2modman 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/Lethal_Company_Traditional_Chinese_Localization/)
-
+  - [全安裝器通用的終端機中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/Lethal_Company_Traditional_Terminal_Chinese/
+)
 ### 注意：因為抓字體方式使用**絕對路徑**，因此要安裝正確對應的中文化模組版本，**__並且 Profile 名稱要使用原本預設 Default__**
 
 ## **手動安裝方法：**
