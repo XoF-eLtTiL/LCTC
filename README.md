@@ -1,4 +1,4 @@
-![Image](Maina.png)
+![Image](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/blob/a5a814f7ecc7289dccda56e667d6fa310044a42b/Maina.png)
 # Lethal Company 致命公司繁體中文化 By XoFKo
 
 ## **警告：**
