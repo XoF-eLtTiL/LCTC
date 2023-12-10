@@ -1,5 +1,5 @@
-![image](https://truth.bahamut.com.tw/s01/202312/e0f42ee9687090a67e83aa95be743793.JPG)
-# Lethal Company 致命公司繁體中文化 By XoFKon
+![Image](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/blob/main/Main.png)
+# Lethal Company 致命公司繁體中文化 By XoFKo
 
 ## **警告：**
 - 要做成模組整合包可以，請標註原作者。
