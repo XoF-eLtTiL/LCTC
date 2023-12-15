@@ -10,7 +10,7 @@
 - 若有裝其他模組，建議同步安裝。
 - 若之前裝過其他中文化模組，請在安裝前刪除 BepInEx\Translation 翻譯資料夾，以避免衝突。
 
-## **懶人安裝：**
+## **自動安裝：**
 - 需要搭配模組安裝器。
   - [Thunderstore Mod Manager 安裝連結](https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager)
     - [Thunderstore Mod Manager 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/Lethal_Company_Traditional_Chinese_Localization/)
