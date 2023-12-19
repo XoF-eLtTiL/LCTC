@@ -1,6 +1,6 @@
 ![圖片](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/blob/a5a814f7ecc7289dccda56e667d6fa310044a42b/Maina.png)
 
-# Lethal Company 致命公司繁體中文化 By XoFKo
+# Lethal Company 致命公司繁體中文化 By XoFKon
 
 ## 警告：
 - 若要做成模組整合包，請標註原作者。
