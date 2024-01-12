@@ -24,7 +24,7 @@
 ## 手動安裝方法：
 1. 下載模組載入器 [BepInEx_x64_XX.XX.X.zip](https://github.com/BepInEx/BepInEx/releases/latest) 
 2. 將下載的 BepInEx_x64_XX.XX.X.zip 解壓縮並安裝到遊戲主資料夾下。
-3. 下載 [LCTC_X.X.X.zip 中文模組安裝包](https://github.com/XoF-eLtTiL/LCTC/releases/latest) 和 [Lethal.Company_Data.zip UI 額外安裝包](https://github.com/XoF-eLtTiL/LCTC/releases/latest/download/Lethal.Company_Data.zip)
+3. 下載 [LCTC_github.zip 中文模組安裝包](https://github.com/XoF-eLtTiL/LCTC/releases/latest/LCTC_github.zip) 和 [Lethal.Company_Data.zip UI 額外安裝包](https://github.com/XoF-eLtTiL/LCTC/releases/latest/download/Lethal.Company_Data.zip)
 4. 解壓縮 LCTC_X.X.X.zip 和 Lethal.Company_Data.zip 到 Lethal Company 遊戲資料夾下。
 
 ### 手動安裝現在有對應的自動安裝 [點此下載](https://github.com/XoF-eLtTiL/LCTC/releases/latest/download/LCTC.exe)
