@@ -1,4 +1,4 @@
-![圖片](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/blob/a5a814f7ecc7289dccda56e667d6fa310044a42b/Maina.png)
+![圖片](https://github.com/XoF-eLtTiL/LCTC/blob/a5a814f7ecc7289dccda56e667d6fa310044a42b/Maina.png)
 
 # Lethal Company 致命公司繁體中文化 By XoFKon
 
@@ -14,21 +14,21 @@
 ## 自動安裝：
 - 需要搭配模組安裝器。
   - [Thunderstore Mod Manager 安裝連結](https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager)
-    - [Thunderstore Mod Manager 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/Lethal_Company_Traditional_Chinese_Localization/)
+    - [Thunderstore Mod Manager 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKonL/LCTC_Thunderstore)
   - [r2modman 安裝連結](https://thunderstore.io/package/ebkr/r2modman/)
-    - [r2modman 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/Lethal_Company_TC_for_r2modman/)
-  - [全安裝器通用的終端機中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/Lethal_Company_Traditional_Terminal_Chinese/)
+    - [r2modman 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/LCTC_r2/)
+  - [全安裝器通用的終端機中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/LCTC_Terminal/)
 
 ### 注意：因為抓字體方式使用**絕對路徑**，因此要安裝正確對應的中文化模組版本，**__並且 Profile 名稱要使用原本預設 Default__**
 
 ## 手動安裝方法：
 1. 下載模組載入器 [BepInEx_x64_XX.XX.X.zip](https://github.com/BepInEx/BepInEx/releases/latest) 
 2. 將下載的 BepInEx_x64_XX.XX.X.zip 解壓縮並安裝到遊戲主資料夾下。
-3. 下載 [LCTC_X.X.X.zip 中文模組安裝包](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/latest) 和 [Lethal.Company_Data.zip UI 額外安裝包](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/download/1.1.7/Lethal.Company_Data.zip)
+3. 下載 [LCTC_X.X.X.zip 中文模組安裝包](https://github.com/XoF-eLtTiL/LCTC/releases/latest) 和 [Lethal.Company_Data.zip UI 額外安裝包](https://github.com/XoF-eLtTiL/LCTC/releases/latest/download/Lethal.Company_Data.zip)
 4. 解壓縮 LCTC_X.X.X.zip 和 Lethal.Company_Data.zip 到 Lethal Company 遊戲資料夾下。
 
-### 手動安裝現在有對應的自動安裝 [點此下載](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/latest/download/LCTC.exe)
-### 因為 PS 腳本都會被 Windows 當作病毒 這是 Bat 批次檔版本 [點此下載](https://github.com/XoF-eLtTiL/Lethal_Company_Traditional_Chinese_Localization/releases/latest/download/LCTC_Installer.bat)
+### 手動安裝現在有對應的自動安裝 [點此下載](https://github.com/XoF-eLtTiL/LCTC/releases/latest/download/LCTC.exe)
+### 因為 PS 腳本都會被 Windows 當作病毒 這是 Bat 批次檔版本 [點此下載](https://github.com/XoF-eLtTiL/LCTC/releases/latest/download/LCTC_Installer.bat)
 
 ![image](https://truth.bahamut.com.tw/s01/202312/08d601fe64c5ca8de3ae29f95a476172.PNG)
 
@@ -38,8 +38,8 @@
 ## 問題回報：
 - 負責人: XoFeLtTiL
 - Discord: xofelttil
-- [Twiiter](https://www.twitch.tv/xofkon)
-- [Twitch](https://twitter.com/XoF_eLtTiL)
+- [Twitch](https://www.twitch.tv/xofkon)
+- [Twiiter](https://twitter.com/XoF_eLtTiL)
 - [Github](https://github.com/XoF-eLtTiL)
 
 ## 貢獻者：
