@@ -14,7 +14,7 @@
 ## 自動安裝：
 - 需要搭配模組安裝器。
   - [Thunderstore Mod Manager 安裝連結](https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager)
-    - [Thunderstore Mod Manager 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKonL/LCTC_Thunderstore)
+    - [Thunderstore Mod Manager 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/LCTC_Thunderstore)
   - [r2modman 安裝連結](https://thunderstore.io/package/ebkr/r2modman/)
     - [r2modman 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/LCTC_r2/)
   - [全安裝器通用的終端機中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/LCTC_Terminal/)
