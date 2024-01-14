@@ -1,4 +1,4 @@
-![圖片](https://github.com/XoF-eLtTiL/LCTC/blob/a5a814f7ecc7289dccda56e667d6fa310044a42b/Maina.png)
+![Image](https://github.com/XoF-eLtTiL/LCTC/blob/a5a814f7ecc7289dccda56e667d6fa310044a42b/Maina.png)
 
 # Lethal Company 致命公司繁體中文化 By XoFKon
 
@@ -33,10 +33,9 @@
 ## 自動安裝：
 - 需要搭配模組安裝器。
   - [Thunderstore Mod Manager 安裝連結](https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager)
-    - [Thunderstore Mod Manager 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/LCTC_Thunderstore)
   - [r2modman 安裝連結](https://thunderstore.io/package/ebkr/r2modman/)
-    - [r2modman 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/LCTC_r2/)
-  - [全安裝器通用的終端機中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/LCTC_Terminal/)
+    - [全安裝器通用的繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/LCTC_Thunderstore)
+    - [全安裝器通用的終端機中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/LCTC_Terminal/)
 
 ### 注意：因為抓字體方式使用**絕對路徑**，因此要安裝正確對應的中文化模組版本，**__並且 Profile 名稱要使用原本預設 Default__**
 
