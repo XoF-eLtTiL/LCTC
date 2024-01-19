@@ -9,25 +9,6 @@
 ## 備註：
 - 中文化模組可以單獨使用，不需所有人一起安裝。
 - 若有裝其他模組，建議同步安裝。
-
-
-## 自動安裝：
-- 需要搭配模組安裝器。
-  - [Thunderstore Mod Manager 安裝連結](https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager)
-    - [Thunderstore Mod Manager 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKonL/LCTC_Thunderstore)
-  - [r2modman 安裝連結](https://thunderstore.io/package/ebkr/r2modman/)
-    - [r2modman 對應 Lethal Company 繁體中文化模組](https://thunderstore.io/c/lethal-company/p/XoFKon/LCTC_r2/)
-  - [全安裝器通用的終端機中文化模組](https://thunderst![圖片](https://github.com/XoF-eLtTiL/LCTC/blob/a5a814f7ecc7289dccda56e667d6fa310044a42b/Maina.png)
-
-# Lethal Company 致命公司繁體中文化 By XoFKon
-
-## 警告：
-- 若要做成模組整合包，請標註原作者。
-- 目前不太建議使用這個繁中化，因為它將會繼續更新，還未全部翻譯。
-
-## 備註：
-- 中文化模組可以單獨使用，不需所有人一起安裝。
-- 若有裝其他模組，建議同步安裝。
 - 若之前裝過其他中文化模組，請在安裝前刪除 BepInEx\Translation 翻譯資料夾，以避免衝突。
 
 ## 自動安裝：
