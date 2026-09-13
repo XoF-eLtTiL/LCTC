@@ -1,0 +1,107 @@
+﻿
+
+# 互動類
+
+
+Confirm: [B]   |   Rotate: [R]   |   Store: [X]=確認：[B]   |   旋轉：[R]   |   儲存：[X]
+[Nothing to store]=[沒有東西儲存]
+[Wait for ship to land]=[等待飛船著陸]
+[ Not holding items ]=[未拿著任何物品]
+[Cannot pull valve]=[無法轉動閥門]
+[Hands full]=[雙手已滿]
+[Near activity detected!]=[附近檢測到異常活動！]
+[Pulling cord]=[正在拉住]
+sr:"(?i)^Drop\s*(.+?)\s*:\s*\[G\]$"=丟棄 $1：[G]
+sr:"(?i)^Drop\s*(.+?)\s*\s*:\s*\s*\[G\]$"=丟棄 $1：[G]
+Key=鑰匙
+
+
+r:"^Use DIY-Flashbang\s*:\s*(.+)(\s*\(Hold\)|)?$"=使用 DIY 閃光彈：$1 $2
+r:"^Open gift\s*:\s*(.+)(\s*\(Hold\)|)$"=開啟禮物：$1 $2
+r:"^Squeeze\s*:\s*(.+)(\s*\(Hold\)|)$"=擠壓：$1 $2
+r:"^Shake can\s*:\s*(.+)(\s*\(Hold\)|)$"=搖動 噴漆罐：$1 $2
+r:"^Spray\s*:\s*(.+)(\s*\(Hold\)|)$"=使用 噴漆：$1 $2
+r:"^Reload\s*:\s*(.+)(\s*\(Hold\)|)$"=重新上膛：$1 $2
+r:"^Turn safety off\s*:\s*(.+)(\s*\(Hold\)|)$"=安全保險：開：$1 $2
+r:"^Turn safety on\s*:\s*(.+)(\s*\(Hold\)|)$"=安全保險：關：$1 $2
+r:"^Fire\s*:\s*(.+)(\s*\(Hold\)|)$"=開火：$1 $2
+r:"^Update map\s*:\s*(.+)(\s*\(Hold\)|)$"=更新地圖：$1 $2
+r:"^Inspect map\s*:\s*(.+)(\s*\(Hold\)|)$"=檢查地圖：$1 $2
+r:"^Wear mask\s*:\s*(.+)(\s*\(Hold\)|)$"=戴上面具：$1 $2
+r:"^Toss egg\s*:\s*(.+)(\s*\(Hold\)|)$"=丟蛋：$1 $2
+r:"^Stab\s*:\s*(.+)(\s*\(Hold\)|)$"=捅：$1 $2
+
+
+r:"^Toggle laser\s*:\s*(.+)(\s*\(Hold\)|)$"=開關雷射：$1 $2
+r:"^Use cash register\s*:\s*(.+)(\s*\(Hold\)|)$"=使用收銀機：$1 $2
+r:"^Tell autopilot ship to leave early\s*:\s*(.+) \(Hold\)$"=告訴自動駕駛飛船提早離開：$1 (長按)
+r:"^Hit pumpkin\s*:\s*(.+)(\s*\(Hold\)|)$"=點擊南瓜：$1 $2
+r:"^Switch water\s*:\s*(.+)(\s*\(Hold\)|)$"=開水龍頭：$1 $2
+r:"^Hit Pumpkin\s*:\s*(.+)(\s*\(Hold\)|)$"=敲打南瓜：$1 $2
+r:"^Set candles\s*:\s*(.+)(\s*\(Hold\)|)$"=點燃蠟燭：$1 $2
+r:"^Pop up ladder\s*:\s*(.+)(\s*\(Hold\)|)$"=彈出梯子：$1 $2
+r:"^Throw grenade\s*:\s*(.+)(\s*\(Hold\)|)$"=投擲手榴彈：$1 $2
+r:"^Use jetpack\s*:\s*(.+)(\s*\(Hold\)|)$"=使用噴氣背包：$1 $2
+r:"^Pull pin\s*:\s*(.+)(\s*\(Hold\)|)$"=拉保險針：$1 $2
+r:"^Pull cord\s*:\s*(.+) (Hold)$"=拉繩：$1 (長按)
+r:"^Place on door\s*:\s*(.+)(\s*\(Hold\)|)$"=放在門上：$1 $2
+r:"^Scan for threat\s*:\s*(.+)(\s*\(Hold\)|)$"=掃描威脅：$1 $2
+r:"^Turn on booster\s*:\s*(.+)(\s*\(Hold\)|)$"=打開增強器：$1 $2
+r:"^Switch TV\s*:\s*(.+)(\s*\(Hold\)|)$"=開關電視：$1 $2
+r:"^Sprint\s*:\s*(.+)(\s*\(Hold\)|)$"=衝刺：$1 $2
+r:"^Open\s*:\s*(.+)(\s*\(Hold\)|)$"=開啟：$1 $2
+r:"^Turn on/off\s*:\s*(.+)(\s*\(Hold\)|)$"=監視器開關：$1 $2
+r:"^Switch camera\s*:\s*(.+)(\s*\(Hold\)|)$"=切換鏡頭：$1 $2
+r:"^Use key\s*:\s*(.+)(\s*\(Hold\)|)$"=使用鑰匙：$1 $2
+r:"^Use airhorn\s*:\s*(.+)(\s*\(Hold\)|)$"=使用 空氣喇叭：$1 $2
+r:"^Quit terminal\s*:\s*(.+)(\s*\(Hold\)|)$"=退出終端機：$1 $2
+r:"^Scan\s*:\s*(.+)(\s*\(Hold\)|)$"=掃描：$1 $2
+r:"^Send voice\s*:\s*(.+)(\s*\(Hold\)|)$"=發送語音：$1 $2
+r:"^Power button\s*:\s*(.+)(\s*\(Hold\)|)$"=電源按鈕：$1 $2
+r:"^Toggle music\s*:\s*(.+)(\s*\(Hold\)|)$"=開關揚聲器：$1 $2
+r:"^Open door\s*:\s*(.+)(\s*\(Hold\)|)$"=開門：$1 $2
+r:"^Start game\s*:\s*(.+)(\s*\(Hold\)|)$"=開始遊戲：$1 $2
+r:"^Start ship\s*:\s*(.+)(\s*\(Hold\)|)$"=啟動飛船：$1 $2
+r:"^Store item\s*:\s*(.+)(\s*\(Hold\)|)$"=儲存物品：$1 $2
+r:"^Swing sign\s*:\s*(.+)(\s*\(Hold\)|)$"=揮動標誌：$1 $2
+r:"^Switch lights\s*:\s*(.+)(\s*\(Hold\)|)$"=開關燈光：$1 $2
+r:"^Toggle light\s*:\s*(.+)(\s*\(Hold\)|)$"=切換手電筒 ：$1 $2
+r:"^Walk\s*:\s*(.+)(\s*\(Hold\)|)$"=移動 ：$1 $2
+r:"^Turn page\s*:\s*(.+)(\s*\(Hold\)|)$"=翻頁 ：$1 $2
+r:"^Use ladder\s*:\s*(.+)(\s*\(Hold\)|)$"=使用梯子：$1 $2
+r:"^Land ship\s*:\s*(.+)(\s*\(Hold\)|)$"=飛船著陸：$1 $2
+r:"^Climb\s*:\s*(.+)(\s*\(Hold\)|)$"=攀爬：$1 $2
+r:"^Let go\s*:\s*(.+)(\s*\(Hold\)|)$"=放手：$1 $2
+r:"^Enter\s*:\s*(.+)(\s*\(Hold\)|)$"=進入：$1 $2
+r:"^Exit\s*:\s*(.+)(\s*\(Hold\)|)$"=離開：$1 $2
+r:"^Ring bell\s*:\s*(.+)(\s*\(Hold\)|)$"=按鈴：$1 $2
+r:"^Disable speaker\s*:\s*(.+)(\s*\(Hold\)|)$"=關閉喇叭：$1 $2
+r:"^Grab\s*:\s*(.+)(\s*\(Hold\)|)$"=拿取：$1 $2
+r:"^Inspect\s*:\s*(.+)(\s*\(Hold\)|)$"=檢查：$1 $2
+r:"^Close door\s*:\s*(.+)(\s*\(Hold\)|)$"=關門：$1 $2
+r:"^Sell item\s*:\s*(.+)(\s*\(Hold\)|)$"=出售物品：$1 $2
+r:"^Use door\s*:\s*(.+)(\s*\(Hold\)|)$"=開門：$1 $2
+r:"^Use Door\s*:\s*(.+)(\s*\(Hold\)|)$"=開門：$1 $2
+r:"^Charge item\s*:\s*(.+)(\s*\(Hold\)|)$"=物品充電：$1 $2
+r:"^Get log\s*:\s*(.+)(\s*\(Hold\)|)$"=拿起日記：$1 $2
+r:"^Lift glass\s*:\s*(.+)(\s*\(Hold\)|)$"=掀開防護蓋：$1 $2
+r:"^Use remote\s*:\s*(.+)(\s*\(Hold\)|)$"=使用遙控器：$1 $2
+r:"^Flip switch\s*:\s*(.+)(\s*\(Hold\)|)$"=撥動開關：$1 $2
+r:"^Use horn\s*:\s*(.+)(\s*\(Hold\)|)$"=使用小丑喇叭：$1 $2
+r:"^Open hatch\s*:\s*(.+)(\s*\(Hold\)|)$"=打開通風口：$1 $2
+r:"^Use hairdryer\s*:\s*(.+)(\s*\(Hold\)|)$"=使用吹風機：$1 $2
+r:"^Take TZP\s*:\s*(.+)(\s*\(Hold\)|)$"=使用 TZP：$1 $2
+r:"^Swing shovel\s*:\s*(.+)(\s*\(Hold\)|)$"=揮動鏟子：$1 $2
+r:"^Access terminal\s*:\s*(.+)(\s*\(Hold\)|)$"=存取終端機：$1 $2
+r:"^Hold\s*:\s*(.+)(\s*\(Hold\)|)$"=按住使用：$1 $2
+r:"^Beam up\s*:\s*(.+)(\s*\(Hold\)|)$"=啟動：$1 $2
+r:"^Flush\s*:\s*(.+)(\s*\(Hold\)|)$"=沖水：$1 $2
+r:"^Play record\s*:\s*(.+)(\s*\(Hold\)|)$"=使用唱片機：$1 $2
+
+r:"^Use binoculars\s*:\s*(.+)(\s*\(Hold\)|)$"=使用雙筒望遠鏡：$1 $2
+r:"^Zap gun\s*:\s*(.+)(\s*\(Hold\)|)$"=電擊槍：$1 $2
+r:"^Lockpicker\s*:\s*(.+)(\s*\(Hold\)|)$"=開鎖器：$1 $2
+r:"^TZP-Inhalant\s*:\s*(.+)(\s*\(Hold\)|)$"=TZP 吸入劑：$1 $2
+r:"^Pro-flashlight\s*:\s*\[(.+)\](\s*\(Hold\)|)$"=高級手電筒：$1 $2
+r:"^Use grenade\s*:\s*\[(.+)\]$"=高級手電筒：$1 
+r:"^Pull cord\s*:\s*(.+)\s*\(Hold\)$"=拉繩：$1 (長按)

@@ -1,0 +1,26 @@
+# LCTC module source and build output must never be published here.
+*.cs
+*.csproj
+*.sln
+*.dll
+*.exe
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+*.zip
+*.7z
+*.rar
+bin/
+obj/
+.vs/
+packages/
+
+# Local settings and credentials.
+.env
+.env.*
+*.user
+*.suo
+
+# Temporary files created by the translation update script.
+dynamic/.files-staging-*/
+dynamic/.files-backup-*/

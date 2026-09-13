@@ -1,0 +1,31 @@
+name: Update dynamic translation manifest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "dynamic/files/**"
+      - "scripts/update-translations.ps1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate SHA-256 manifest
+        shell: pwsh
+        run: ./scripts/update-translations.ps1 -ManifestOnly
+      - name: Commit changed manifest
+        run: |
+          if git diff --quiet -- dynamic/manifest.txt; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dynamic/manifest.txt
+          git commit -m "chore: update translation manifest"
+          git push

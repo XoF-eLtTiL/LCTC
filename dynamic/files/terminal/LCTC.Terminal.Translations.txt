@@ -1,0 +1,382 @@
+﻿
+# ===== Auto-added missing NODE rules =====
+# Added at: 2026-04-22 20:47:49
+NODE	0_Bestiary	圖鑑\n\n要存取生物資料，請在名稱後輸入「INFO (資訊)」。\n---------------------------------\n\n[currentScannedEnemiesList]\n\n\n
+NODE	0_LogsHub	SIGURD 的日誌紀錄\n\n要閱讀日誌，請在名稱前輸入關鍵字「VIEW (查看)」。\n---------------------------------\n\n[currentUnlockedLogsList]\n\n\n
+NODE	0_StoreHub	歡迎來到公司商店。\n對任何物品使用「BUY (購買)」或「 INFO (資訊)」指令。\n輸入數字即可批量訂購工具。\n____________________________\n\n[buyableItemsList]\n[buyableVehiclesList]\n\n船隻升級：\n* Loud horn    //    價格：$100\n* Signal Translator    //    價格：$255\n* Teleporter    //    價格：$375\n* Inverse Teleporter    //    價格：$425\n\n船內裝飾會依配額輪替，記得下週再來查看：\n------------------------------\n[unlockablesSelectionList]\n\n
+NODE	20route	前往 20-Adamance 的航線費用為 [totalCost]。\n目前此星球狀態為 [currentPlanetTime]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n\n
+NODE	20routeConfirm	自動導航已設定前往 20-Adamance。\n目前餘額為 [playerCredits]。\n\n祝你好運。\n\n
+NODE	21route	前往 21-Offense 的航線費用為 [totalCost]。\n目前此星球狀態為 [currentPlanetTime]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n\n
+NODE	21routeConfirm	自動導航已設定前往 21-Offense。\n目前餘額為 [playerCredits]。\n\n祝你旅途愉快。\n\n
+NODE	220route	前往 220-Assurance 的航線費用為 [totalCost]。\n目前此星球狀態為 [currentPlanetTime]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n\n
+NODE	220routeConfirm	自動導航已設定前往 220-Assurance。\n目前餘額為 [playerCredits]。\n\n祝你旅途愉快。\n\n
+NODE	41route	前往 41-Experimentation 的航線費用為 [totalCost]。\n目前此星球狀態為 [currentPlanetTime]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n\n
+NODE	41routeConfirm	自動導航已設定前往 41-Experimentation。\n目前餘額為 [playerCredits]。\n\n祝你旅途愉快。\n\n
+NODE	56route	前往 56-Vow 的航線費用為 [totalCost]。\n目前此星球狀態為 [currentPlanetTime]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n\n
+NODE	56routeConfirm	自動導航已設定前往 56-Vow。\n目前餘額為 [playerCredits]。\n\n祝你旅途愉快。\n\n
+NODE	5route	前往 5-Embrion 的航線費用為 [totalCost]。\n目前此星球狀態為 [currentPlanetTime]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n\n
+NODE	5routeConfirm	自動導航已設定前往 5-Embrion。\n目前餘額為 [playerCredits]。\n\n祝你好運。\n\n
+NODE	61route	前往 61-March 的航線費用為 [totalCost]。\n目前此星球狀態為 [currentPlanetTime]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n\n
+NODE	61routeConfirm	自動導航已設定前往 61-March。\n目前餘額為 [playerCredits]。\n\n祝你旅途愉快。\n\n
+NODE	68route	前往 68-Artifice 的航線費用為 [totalCost]。\n目前此星球狀態為 [currentPlanetTime]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n\n
+NODE	68routeConfirm	自動導航已設定前往 68-Artifice。\n目前餘額為 [playerCredits]。\n\n祝你旅途愉快。\n\n
+NODE	7route	前往 7-Dine 的航線費用為 [totalCost]。\n目前此星球狀態為 [currentPlanetTime]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n\n
+NODE	7routeConfirm	自動導航已設定前往 7-Dine。\n目前餘額為 [playerCredits]。\n\n祝你旅途愉快。\n\n
+NODE	85route	前往 85-Rend 的航線費用為 [totalCost]。\n目前此星球狀態為 [currentPlanetTime]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n\n
+NODE	85routeConfirm	自動導航已設定前往 85-Rend。\n目前餘額為 [playerCredits]。\n\n祝你旅途愉快。\n\n
+NODE	8route	前往 8-Titan 的航線費用為 [totalCost]。\n目前此星球狀態為 [currentPlanetTime]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n\n
+NODE	8routeConfirm	自動導航已設定前往 8-Titan。\n目前餘額為 [playerCredits]。\n\n祝你好運。\n\n
+NODE	AdamanceInfo	20-Adamance\n----------------------\n\n環境：侵蝕與地質作用形成了由深谷與山脈構成的地形。\n\n歷史：Adamance 是俗稱「Green Witches」中最大且最古老的一顆，包括 Vow、March 和 Adamance，這些星球皆環繞 No Service。\n\n生態：擁有活躍且多樣的小型雜食性生物生態系。\n\n
+NODE	AlreadyOnThisPlanet	自動導航船已經在此星球軌道上！\n\n
+NODE	AlreadyUnlocked	此項目已為你的飛船解鎖！\n\n
+NODE	ArtificeInfo	68-Artifice\n----------------------\n\n環境：這片土地曾經生機盎然，如今廢棄設施遍布各處。\n\n歷史：在地表多處發現武器與機密技術，最早可追溯至兩百年前。\n\n生態：據說仍有運作中的機械遺留於此。\n\n
+NODE	AssInfo	220-Assurance\n----------------------\n\n環境：與其雙生星球 41-Experimentation 類似，但地形更加崎嶇且風化嚴重。\n\n歷史：220-Assurance 的年齡遠比其對應星球年輕，在 41-Experimentation 發現不久後即被發現。\n\n生態：未知\n\n
+NODE	AutopickerInfo	\n開鎖器將釋放你在工作中的無限效率潛力。透過專有 AI 軟體驅動，它們能讓你進入任何上鎖的門。\n\n
+NODE	BaboonHawkFile	狒狒鷹\n\nSigurd 的危險等級：75%\n\n學名：Papio-volturius\n狒狒鷹屬於猴科靈長類動物。牠們駝背，但平均可直立達 8 英尺高。其頭部呈骨質結構，具有類鳥喙與長角，會像長矛般刺穿並捕食獵物。牠們的角由角蛋白構成，而非像頭骨其他部分那樣為骨質，且不含神經或血管。因此狒狒鷹常因施力過猛而折斷其角，並能在同一季節內完全再生。狒狒鷹之名部分來自其巨大的翅膀，但這些翅膀無法承載其龐大體重，主要用於威嚇與抵禦環境。\n\n目前觀測到最大的狒狒鷹族群由 18 隻組成。牠們具有鬆散的領域性，多數行為以威嚇與展示為主。牠們有時會成為收集者，使用任何顯眼或色彩鮮豔的物品來標記領地。作為單獨行動的偵察者時，狒狒鷹通常較為膽怯，除非受到挑釁才會攻擊。數量一多時則極具威脅；與他人保持靠近並讓自己看起來具有威脅性，是避免遭受攻擊的最佳方式。牠們偏好較小型的哺乳動物，但在極度飢餓時，已知會利用數量優勢攻擊體型甚至達其兩倍的動物，例如無眼犬。牠們拿走了我的醃黃瓜\n\n
+NODE	BBbulbInfo	\n最實惠的照明工具，甚至具備防水功能！\n如果你喜歡這個產品，不妨試試高級手電筒！\n\n
+NODE	BeeSuitBuy	你已請求訂購蜜蜂防護服。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	BeeSuitBuyConfirm	已訂購蜜蜂防護服！目前餘額為 [playerCredits]。\n\n
+NODE	BeltBagInfo	\n公司專用的戰術腰包，對於想全力發揮的人來說是必備品！一次可容納 15 個工具物品。你將不再感到自己毫無用處！\n\n按下 [Q] 可將物品存入包中，點擊即可查看內容並拖出物品。其他玩家也可以在腰包繫於你身上時使用它。\n\n
+NODE	BoomboxInfo	\n這些熱血音樂非常適合提升你們隊伍的士氣！\n\n
+NODE	BrackenFile	花人布拉肯 -- 也就是所謂的花人！\n\n就是那個花人，你不能否認！我想找到他的屍體……你們這些膽小鬼\n\n學名：Rapax-folium\n關於布拉肯所屬的分類仍存在爭議。牠是一種雙足脊椎動物，皮膚呈紅甜菜般的顏色與質地。其名稱來自於看似從上背脊長出的葉片。一般認為這些構造用於威嚇，但由於布拉肯行蹤隱匿且數量稀少，其具體行為仍所知甚少。\n\n我們從曾與其接觸的野外專家報告中略知一二。牠是單獨行動的高智慧獵食者。其行為看似冷漠；即使未受挑釁也可能展現高度攻擊性，但在被正面對抗時又會迅速退卻。然而，布拉肯在被逼入角落或長時間被注視時，敵意會顯著提升。因此建議持續留意其動向，但不要與其對視。目前尚未取得任何活體或屍體樣本。推測其死亡後會迅速分解，這種現象與其他大型動物不同。\n\n
+NODE	Bunkbeds1	上下舖\n\n
+NODE	BunkerSpiderFile	碉堡蜘蛛\n\nSigurd 的危險等級：30%\n\n學名：Mutinum-ficedula\n碉堡蜘蛛屬於 Theraphosa 屬，是荊棘星雲中發現的最大型蛛形動物，也是歷來第二大的物種。據推測，在「船」繞行荊棘星雲後短短數百年間，牠們演化為以大型哺乳動物為食。（參見：衰退星雲周邊物種加速分化的推測）\n\n碉堡蜘蛛會製造蛛絲並鋪設於其選定的巢穴周圍，等待獵物觸發。牠們常潛伏於牆面，尤其是門口上方，等待獵物毫無防備地進入。如果你在牠「尚未準備好」時遇見牠，牠可能會僵住作為防禦反應，此時最好不要干擾。若碉堡蜘蛛表現出攻擊性，建議不要使用一般工具與其對抗。牠們以蛛網彌補行動緩慢的缺點，因此請留意周遭環境。其蛛網可用任何鈍器輕易破壞。\n\n碉堡蜘蛛對人類，特別是都市探險者，具有極高威脅，卻對生態系幾乎沒有益處。因此多個棲息地州份曾非正式同意採取「見即擊殺」政策，並於 1965 年 10 月 6 日由 ITDA 正式批准，至今仍有效。\n
+NODE	BunnySuitBuy	你已請求訂購兔子服。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	BunnySuitBuyConfirm	已訂購兔子服！目前餘額為 [playerCredits]。\n\n
+NODE	BushWolfFile	綁架狐\n\nSigurd 的危險等級：80% 好樣的，它在詭異學校拿了 A+\n\n學名：Vulpes raptor\n一種屬於犬科（Canidae）的大型哺乳動物，綁架狐具有多項獨特的生理特徵。其中兩項為其水平開合的顎部與特殊頭骨結構，使其具備極強的咬合力，以及其如青蛙般的長舌，最長可達其纖細身體的兩倍。牠們為單獨狩獵者，並會終身配對。\n\n綁架狐擁有非常長且濃密的頸部與尾巴，顏色偏紅，被認為能很好地融入大量存在的 Vain Shroud 之中，牠幾乎總是潛伏其中等待獵物。綁架狐與 Vain Shroud 之間形成了一種極為著名且特殊的互利共生關係，且兩者皆為入侵物種。牠們會搭乘大型太空船擴散至各個星系。除少數自然保護區外，ITDA 已對綁架狐與 Vain Shroud 發布「見即擊殺」命令，因其對生態系造成的影響。\n\n綁架狐之所以得名，是因其具有侵略性、膽小且具領地性的行為，偏好將獵物拖至視線外，通常是在 Vain Shroud 中完成捕食。牠們通常選擇潛伏等待，但若變得焦躁，會利用其長而黏稠的舌頭從遠距離捕捉獵物，並將其拖走至所需距離。如果你所在區域出現 Vain Shroud，請攜帶武器並避免與同伴分散；其舌頭相當柔軟且脆弱，容易被攻擊，一旦受擊便會中斷攻勢。目前每年因綁架狐導致的人類死亡案例相對較少，多數受害者為無人看護的孩童或單獨行動的成人。\n\n\n
+NODE	BusyDeliveringVehicle	運送艙正在運送你的 Company Cruiser。在抵達前無法購買物品。\n
+NODE	ButlerFile	管家\n\nSigurd 的危險等級：70%\n\n這個東西根本沒有資料，所以我自己寫。我們一直在豪宅裡發現這些臭怪胎，牠們不跟我們說話，甚至不理我們，看起來就像洩氣的氣球。味道像腐爛的肉，臭到連 Richard 都比不上。我甚至聽到牠們體內有蒼蠅在嗡嗡叫。Jess 說她看到有東西從牠的眼窩爬出來又爬回去。\n\n我真的不知道該怎麼形容這些東西\n\n牠們只是到處走來走去然後掃地，我猜這就是為什麼豪宅這麼乾淨。至少牠們會做事。但我發誓這些臭怪胎會在我沒注意的時候盯著我\n\n更新：牠們拿刀追著 Rich 跑。我們沒親眼看到，但他說他衝進房間時，那個管家又拿出掃把開始掃地，就像什麼事都沒發生一樣。所以我們現在都一起行動。去他的這些管家！現在我還得更靠近 Rich，而且他大概已經尿在自己的防護服裡了
+NODE	buyBeltBag	你已請求訂購戰術腰包。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyBeltBag2	已訂購 [variableAmount] 個戰術腰包。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buyBoombox	你已請求訂購音響。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyBoombox2	已訂購 [variableAmount] 個音響。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buyCruiser	你已請求訂購 Company Cruiser。\n[warranty] 總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyCruiser2	已訂購 Company Cruiser。目前餘額為 [playerCredits]。\n\n我們對本產品品質充滿信心，因此提供終身保固！若你的 Cruiser 遺失或被摧毀，可免費獲得一次替換。在運送途中無法購買其他物品。\n\n
+NODE	buyExtensLadder	你已請求訂購伸縮梯。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyExtensLadder2	已訂購 [variableAmount] 個伸縮梯。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buyFlash	你已請求訂購手電筒。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyFlash2	已訂購 [variableAmount] 個手電筒。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buyJetpack	你已請求訂購噴射背包。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyJetpack2	已訂購 [variableAmount] 個噴射背包。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buyLockpickers	你已請求訂購開鎖器。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyLockpickers2	已訂購 [variableAmount] 個開鎖器。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buyMapper	你已請求訂購 Mapper 工具。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyMapper2	已訂購 [variableAmount] 個 Mapper 工具。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buyProFlashlight1	你已請求訂購專業手電筒。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyProFlashlight2	已訂購 [variableAmount] 個專業手電筒。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buyRadarBooster	你已請求訂購雷達增幅器。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyRadarBooster2	已訂購 [variableAmount] 個雷達增幅器。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buyShovel	你已請求訂購鏟子。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyShovel2	已訂購 [variableAmount] 把鏟子。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buySpraypaint	你已請求訂購噴漆。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buySpraypaint2	已訂購 [variableAmount] 罐噴漆。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buyStunGrenade	你已請求訂購震撼彈。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyStunGrenade2	已訂購 [variableAmount] 顆震撼彈。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buySurvivalKit	你已請求訂購生存套件：\n* 手電筒 x4 \n* 對講機 x4\n* 鏟子 x1\n\n購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buySurvivalKit2	已訂購 [variableAmount] 個生存套件。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buyTZP	你已請求訂購 TZP 吸入劑。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyTZP2	已訂購 [variableAmount] 個 TZP 吸入劑。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buyWalkieTalkie	你已請求訂購對講機。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyWalkieTalkie2	已訂購 [variableAmount] 個對講機。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buyWeedkiller	你已請求訂購除草劑。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyWeedKiller2	已訂購 [variableAmount] 瓶除草劑。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	buyZapGun	你已請求訂購電擊槍。購買數量為 [variableAmount] 個。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	buyZapGun2	已訂購 [variableAmount] 把電擊槍。目前餘額為 [playerCredits]。\n\n本公司承包人於工作期間享有快速且免費的配送服務！所有購買物品將每小時送達你的大致位置。\n\n
+NODE	CadaverBloomFile	屍花增生 / 屍花綻放\n\nSigurd 的危險等級：100% 牠們逼我喝除草劑還吐出來，然後再喝一次再吐一次。我再也不會回去 Adamance 了 那些只是看起來漂亮的花\n\n學名：Moderantum flos\n屍花增生（又稱 Cadaver）是一種危險且生長迅速的蕨類植物，偏好黑暗、潮濕且封閉的環境，例如洞穴。它們通常呈現為成群高大的蕨類，搭配大型病態黃色的花瓣。切勿進入有屍花增生存在的房間。即使已接種疫苗，長時間暴露於其孢子中仍可能使免疫系統失效。\n\n這些黃色花瓣其實是退化構造，原本屬於另一物種——Pilea microphylla（炮彈草），現已被屍花增生利用來散播孢子。植物學界對此仍有爭議，尚未確定是否仍屬兩種物種，但普遍認為該蕨類已同化此開花植物，並共享大量 DNA。其機制仍屬機密研究。\n\n由於這種成功的「寄生」能力，加上本身極高的自我繁殖能力，使其能以極高效率散播孢子，並具備嘗試感染哺乳類（包含人類）的能力。感染後的個體被稱為「屍花綻放」。\n\n當孢子進入體內並在肺部開始萌發時，仍有機會進行預防，所有接觸者應立即就醫。最常見的初期症狀為頸部或背部長出小型黃色花瓣。在極端情況下，某些除草劑在早期可抑制感染。若患者口中已明顯釋放孢子，幾乎無法完全治療，附近人員應遮住口鼻並保持至少 10 英尺距離；此為約 80% 病例會出現的重度感染徵兆。\n\n當感染進入關鍵階段後，一旦宿主失去意識，植物將立即完全控制身體，並利用宿主養分加速生長。若宿主未失去意識，植物最終會透過生長擠壓腦部使其停止運作。目前尚不清楚為何該生長會「等待」宿主失去意識才完全啟動，但這也導致其被稱為「屍花綻放」，因其常在死亡時爆發。所幸目前尚無跨物種爆發的紀錄。\n\n任何屍花增生的目擊必須通報 ITDA。\n\n\n
+NODE	CancelPurchase	已取消訂單。\n\n
+NODE	CancelRoute	你已取消路線。\n\n\n
+NODE	CannotAfford	你無法負擔這些物品！\n目前餘額為 [playerCredits]。總價格為 [totalCost]。\n\n
+NODE	CantBuyVehicleYet	運送艙目前正載運物品途中；在清空前無法購買載具。\n\n
+NODE	CantReturnFromStorage	飛船正在降落或離開時，無法從儲存區返回。\n\n
+NODE	CantRouteInChallenge	你選擇了挑戰模式存檔。在挑戰期間無法前往其他星球。\n\n
+NODE	ch_ResetCredits	已將資金重設為 200。
+NODE	CircuitBeeFile	電路蜜蜂\n\nSigurd 的危險等級：90%\n\n學名：Crabro-coruscus\n電路蜜蜂（又稱紅蜜蜂）是一種群居性飛行昆蟲，屬於 Apis 屬，是蜜蜂的後代。其外觀特徵為帶毛的紅色身體與兩對翅膀。與祖先相同，牠們以高度社會性行為、大型族群、建造蠟巢儲存蜂蜜以及在授粉中的重要角色而聞名。不同於常將巢築於高處（如樹上）的蜜蜂，紅蜜蜂會在地面築巢。\n\n紅蜜蜂具有極高防禦性。任何接近數公尺內的生物都會遭到攻擊，巢中僅留下蜂后與雄蜂。這種行為仰賴其最具代表性的能力——靜電電荷。紅蜜蜂透過與空氣摩擦、雙翼互相摩擦，以及群體間的接觸來產生電荷。與蜜蜂相比，牠們能產生更強電場的原因仍在研究中，且在恐慌或憤怒時電場會更強。這種能力在水域環境中特別有效。\n\n\n\n最好保持距離。如果蜂巢被奪走，紅蜜蜂群會進入全面攻擊狀態，對任何生物發動攻擊。這種行為會持續直到找回蜂巢或精疲力竭，可能持續數小時至數天。牠們曾留下遍地小型齧齒動物、昆蟲甚至大型哺乳類的屍體，極少數情況下甚至會引發火災。牠們對生態系的利弊仍存在爭議。爭議！！——不屈的 Sigurd
+NODE	ClassicPaintingBuy	你已請求訂購一幅經典畫作。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	ClassicPaintingBuyConfirm	已訂購經典畫作！目前餘額為 [playerCredits]。\n
+NODE	ClaySurgeonFile	理髮師\n\n我夢見了理髮師\n有一天他幫我做了一頂假髮\n因為他的剪刀太大了\n\n
+NODE	CoilHeadFile	彈簧頭\n\nSigurd 的危險等級：80%\n\n學名：Vir colligerus\nVir colligerus，俗稱彈簧頭，是近期才被發現的物種。由於其極端不可預測性與危險特性，目前尚未有深入研究。在解剖甚至嘗試停用時，牠們曾發生自燃現象，且體內帶有高度危險的放射性粒子。基於這些特徵，有強烈推測其為戰爭用生物兵器，但尚未獲得證實。\n\n彈簧頭的外觀類似一具血跡斑斑的人形模特，頭部以彈簧連接。其最顯著的行為特徵是在被注視時會停止行動，但這並非絕對規則。當遭遇巨大聲響或強光時，牠們有時會進入長時間的重置狀態。\n盯著牠們看，或用震撼彈！- Sigurd\n\n
+NODE	CompanyBuildingInfo	公司目前以 [companyBuyingPercent] 的價格收購你的物品。\n\n前往此處可交付你在工作期間收集到的所有有價值廢料。回收價格每小時更新，並會在數天內浮動。\n\n
+NODE	CompanyMoonroute	公司目前收購價格為 [companyBuyingPercent]。\n\n是否要將自動導航設為前往公司大樓？\n\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n\n
+NODE	CompanyMoonRouteConfirm	自動導航已設定前往公司大樓。\n\n祝你旅途愉快。\n\n
+NODE	ConfirmEject	是否要將所有船員（包含你自己）彈出？必須處於星球軌道上。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	CouldNotReroute	目前無法設定航線。必須先進入星球軌道才能使用自動導航。\n使用前台的主控制拉桿進入軌道。\n\n\n\n
+NODE	CozyLightsBuy1	你已請求訂購溫馨燈飾。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	CozyLightsBuyConfirm	已訂購溫馨燈飾！目前餘額為 [playerCredits]。\n使用燈光開關即可啟用溫馨燈飾。\n\n
+NODE	CruiserInfo	Company Cruiser 是一輛完整的運輸卡車，能夠載運你所需的所有物品，甚至包括你的隊友！購買 Company Cruiser 將附帶一次免費終身保固，因為我們對其耐用性與實用性充滿信心！\n\n內附使用手冊，請務必閱讀以了解最佳操作方式。
+NODE	Cupboard1	櫥櫃\n\n
+NODE	DenyEject	已取消彈出程序。\n\n
+NODE	DineInfo	7-Dine\n----------------------\n\n環境：其行星環繞白矮星，導致環境寒冷且不適居。持續暴風雪降低能見度。\n\n歷史：多位知名探險者曾在此失蹤，使其聲名狼藉。由於環境惡劣，其遺體幾乎不可能被尋獲。\n\n生態：幾乎不可能存在複雜生命。\n\n
+NODE	DiscoBallBuy	你已請求訂購迪斯可球。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	DiscoBallBuyConfirm	已訂購迪斯可球！目前餘額為 [playerCredits]。\n使用燈光開關即可啟用迪斯可效果。\n
+NODE	DoghouseBuy	你已請求訂購狗屋。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	DoghouseBuyConfirm	已訂購狗屋！目前餘額為 [playerCredits]。\n
+NODE	EarthLeviathanFile	大地利維坦\n\nSigurd 的危險等級：2% 因為牠們躲不過船上的攝影機！！\n\n學名：Hemibdella-gigantis\n被尊稱為「大地利維坦」的生物，屬於 Piscicolidae 科，是荊棘星雲周邊發現的最大型無脊椎生物之一。目前尚未成功捕獲，因此對其生物學了解有限。\n\n牠們似乎是掠食者。根據其留下的大規模挖掘痕跡推測，牠們能在地下挖掘深達 40 公尺。牠們能感知極其微小的震動，因此若牠們在附近，不建議靜止不動——那是個迷思。相反地，如果你聽到牠們在挖掘，應立即原路撤離。
+NODE	EjectPlayers	正在彈出所有船員。\n\n
+NODE	ElectricChairBuy	你已請求訂購電椅。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	ElectricChairBuyConfirm	已訂購電椅！目前餘額為 [playerCredits]。\n\n你的電椅可透過任何高電壓電源啟動！
+NODE	EmbrionInfo	5-Embrion\n----------------------\n\n環境：荒涼且平坦，空氣無法呼吸。Embrion 的地表幾乎完全由紫水晶構成，這與其距離最近恆星的距離以及由此產生的地熱活動有關。其地表溫度極高。\n\n歷史：Embrion 於上個世紀才被發現。看起來在正式發現之前，早已被用作 Old Birds 的測試場。由於其危險性，該地已被標記為「封鎖區」。有理論認為，在其地表下方的巨大洞穴網絡中，可能存在多樣的地熱生態系。\n\n生態：Embrion 不存在生物生命。\n\n
+NODE	EnteredCode	已輸入廣播代碼。\n\n
+NODE	ExpInfo	41-Experimentation\n----------------------\n\n環境：乾燥。適居性低，且受工業遺留物影響更加惡化。\n\n歷史：由於其繞氣體巨星 Big Grin 的近距離軌道，長時間未被發現。然而看起來曾被秘密利用。\n\n生態：未知\n\n
+NODE	ExtensionLadderInfo	\n伸縮梯最高可延伸至 9 公尺！用它攀爬任何懸崖，觸及更高處！為節省電力，伸縮梯會在 18 秒後自動收回。\n\n\n
+NODE	EyelessDogFile	無眼犬\n\n學名：Leo caecus\n一種屬於 Saeptivus 科的大型哺乳動物。牠們具有社會性，會以大型群體狩獵。牠們也被稱為「呼吸獅」，因其獨特的呼吸聲與巨大的口部結構。牠們是耐力型獵手，並試圖以敏銳的聽覺彌補視覺的缺失。有一種流行說法認為牠們會誤將同類的聲音當作獵物，導致群體內部發生衝突。\n\n牠們的行為與其他群居動物不同，傾向於分散行動以擴大搜尋範圍。當某隻無眼犬發現獵物時，會以吼叫通知附近同伴，其他個體也會跟著發出警告，甚至形成連鎖反應。無眼犬在群體狀態下極具威脅。然而牠們行動笨拙，常需憑感覺判斷獵物位置，而這些判斷往往並不準確。
+NODE	FeioparFile	伏影豹\n\n學名：Felis arborum\n\n伏影豹是一種屬於 Saeptivus 科的大型哺乳動物，通常身高約 5 英尺。在該科所有物種中，牠們最接近其貓科祖先，但其骨質突起的背部與修長的頸部使其外觀有所區別。牠們的尾巴長度也是其他物種的兩倍，普遍認為這有助於其強化的攀爬能力，而牠們在受到威脅時會運用這項能力。伏影豹是近期才被發現的物種，僅分布於「綠女巫」三顆星球——Vow、March 與 Adamance。\n\n牠們的個性相當膽小但又帶有好奇心。雖然旅人與露營者經常能在濃密灌木叢中看到牠們低伏觀察，但牠們極少具有危險性，即使發動攻擊也很少致命。目前沒有任何死亡案例被歸因於伏影豹。登山客與探險者曾將伏影豹與過去多起都市傳說聯繫在一起，並認為牠們與多起失蹤事件有關，尤其是在 Vow 上。然而這些說法並無根據。伏影豹是這些生態系中的重要調節者，牠們只是對進入其領域的新訪客感到好奇。因此，如果你打算前往偏遠而景色優美的 Vow 旅行，建議先了解一些與這位小小 Saeptivus 朋友相處的注意事項！\n\n首先：不要單獨行動。有人同行能互相照應，而群體會讓伏影豹感到畏懼。當然，也不要將食物隨意放置，以免吸引獵物與掠食者。務必將食物存放於密封容器中。補充：近期研究顯示伏影豹對橘色與高可視標記略顯不安，但此點尚未完全確認。\n\n若你真的遇到伏影豹，請不要驚慌。抱起幼童並保持冷靜。用低聲說話，讓自己看起來更大，並維持直接眼神接觸。與多數掠食者不同，對伏影豹維持直視是有效的威嚇方式。如果你無法確認牠的位置，請緩慢後退並留意森林中牠明亮的黃色眼睛。當伏影豹接近時，通常會發出短促而低沉的呼嚕聲來暴露自己的位置。如果這個聲音突然消失，代表牠可能已經進入危險距離。在極近距離下，與伏影豹的眼神接觸反而可能產生反效果，促使牠發動撲擊。因此建議隨身攜帶非致命防身工具，例如熊用噴霧。若遭遇已演變為攻擊，旁觀者應立即遠離，並儘快為受傷者尋求醫療協助，因為攻擊通常持續時間不長。\n\n\n
+NODE	FileCabinet1	文件櫃\n\n
+NODE	FishBowlBuy	你已請求訂購一條金魚，附贈玻璃魚缸。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	FishBowlBuyConfirm	已訂購金魚！目前餘額為 [playerCredits]。\n按下 [B] 可重新擺放飛船內的魚，[V] 以確認。\n
+NODE	FlashedRadarBooster	已啟動雷達增幅器。\n\n\n
+NODE	FlashlightInfo	\n更長的電池續航與更明亮的燈泡，讓你的隊友再也無法把你丟在黑暗中！\n\n
+NODE	ForestKeeperFile	森林守護者\n\nSigurd 的危險等級：50%\n\n學名：Satyrid-proceritas\n據信與 Rapax-folium 具有共同祖先，這些巨獸因常棲息於森林生態而被稱為森林守護者。牠們身體前後具有類似眼睛的斑紋——這種特徵在幼年時期特別有用，因為牠們行動不夠敏捷。其皮膚由一種獨特且密實的材質構成，並會隨年齡增長而逐漸硬化；身上巨大的尖刺與突起即是老化的結果。\n\n據說森林守護者會表現出類似 5 至 6 歲人類孩童的好奇行為。牠們會吞食任何令其感到新奇的東西。實際上，牠們並不需要將物體放入口中，推測其主要能量來源類似光合作用。然而這仍使牠們在觀察時具備危險性。牠們可在遠距離視物，因此務必壓低身形並利用掩體。牠們無法進入狹小空間，且通常不具破壞性，因此應盡量靠近遮蔽物或懸垂結構。
+NODE	FridgeBuy	你已請求訂購冰箱。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	FridgeBuyConfirm	已訂購冰箱！目前餘額為 [playerCredits]。\n
+NODE	GeneralError	發生錯誤！請再試一次。\n\n
+NODE	GreenSuitBuy1	你已請求訂購綠色防護服。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	GreenSuitBuyConfirm	已訂購綠色防護服！目前餘額為 [playerCredits]。\n\n
+NODE	GunkfishFile	後水域泥魚\n\nSigurd 的危險等級：0% 但這些黏糊糊的小怪物就是不肯離開我\n\n學名：Infectum linteum\n\n後水域泥魚是泥魚的一種類型，屬於 Mobulidae 科。與其他泥魚不同，後水域泥魚大多時間待在陸地上。只要有水源存在，任何潮濕溫暖的環境都可能成為其棲地。其身體肥厚、扁平、柔軟且呈膠狀，寬度約等於一塊門墊。尾部比身體稍硬，長度約 2 至 3 英尺。當受到壓力時，其尾巴通常會捲到頭上方，準備發射黏液或透過抖動發出威嚇。\n\n後水域泥魚以表面的有機物為食，因此常見於受污染的水域、沼澤或骯髒的下水道。當受到驚嚇時，牠會透過尾部的開口噴射濃稠的綠色黏液與唾液混合物作為防禦；後水域泥魚特別儲備大量「備用黏液」，可在緊急情況下多次噴射。必要時，牠會釋放部分儲備黏液於體表，以提升在陸地上的移動能力。\n\n後水域泥魚本身無害，並被視為其棲地中的天然清潔者。其黏液具有消毒作用；雖然不適合攝入，但若經由眼睛或鼻子進入體內，通常不會造成嚴重傷害。其氣味常被形容為醋與豬油的混合氣味，且剛分泌時略帶溫度。\n\n儘管不具直接危害，後水域泥魚在水處理設施與石油精煉廠中常被視為麻煩的害物。牠們行蹤難以掌握，能鑽入極小的孔洞與管道中，其黏液一旦硬化後極難清除，會形成類似冰塊的物質。因此牠們曾導致多起事故，應嚴肅看待。目前已有專門的害物處理服務可安全移除並轉移泥魚，且價格合理。預防泥魚入侵的最佳方式，是保持環境乾燥清潔，並封閉任何通往積水的通道。\n\n\n\n
+NODE	HazardSuitBuy1	你已請求訂購防護服。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	HazardSuitBuyConfirm	已訂購防護服！目前餘額為 [playerCredits]。\n\n
+NODE	HelpCommands	>MOONS\n查看自動導航可前往的星球列表。\n\n>STORE\n查看公司商店提供的實用物品。\n\n>BESTIARY\n查看已記錄的生物列表。\n\n>STORAGE\n存取已放入儲存區的物品。\n\n>OTHER\n查看其他指令列表\n\n[numberOfItemsOnRoute]
+NODE	HoardingBugFile	囤積蟲\n\nSigurd 的危險等級：17%\n\n學名：Linepithema-crassus\n囤積蟲（屬於膜翅目）是一種大型的群居昆蟲。雖然常被發現單獨行動，但也有記錄顯示牠們會與同種個體共享巢穴。其平均身高約為 3 英尺，具有膨大的身體。其體液與血液的低黏度，以及外殼材質，使牠們重量較輕，能以膜狀翅膀飛行，同時也讓其身體呈現一定程度的半透明。\n\n囤積蟲因其強烈的領地性而得名。一旦選定某處作為巢穴，牠們會收集各種物品來裝飾巢穴，並將這些物品視為巢的一部分加以保護。單隻囤積蟲並不算特別危險，但當形成大型群體時威脅性會大幅提升。不過，若不去打擾牠們，囤積蟲其實相當中立，幾乎不構成威脅。w我們愛這些蠢蠢的抱抱蟲。！！ - 這是一則來自無敵的 Sigurd 的筆記\n
+NODE	HygrodereFile	史萊姆\n\nSigurd 的危險等級：0%，只要你跑得比蝸牛快！\n\n學名：Hygrodere\n一種真核生物，分類於並系群原生生物之中。憑藉驚人的繁殖速度，這些微小生物能迅速增殖至數百萬個體。史萊姆很少分裂個體，而是傾向聚集成巨大且黏稠的團塊，佔據大量空間並成為難以處理的威脅，通常需要大型工具或誘餌才能轉移。\n\n史萊姆會被熱源與氧氣吸引，且幾乎能從任何地方感知到。幾乎沒有任何有機物無法被其轉化為自身質量。目前尚未發現能毒害牠們的方法。由於持續自我替換，牠們可以存活數十萬年。若你被逼入角落，請找高處站立；史萊姆不擅長攀爬。牠們其實挺有品味的！因為我莫名其妙跟其中一隻交了朋友，，我們覺得是因為我的音樂。\n
+NODE	InverseTeleporterBuy	你已請求訂購反向傳送器（船隻升級）。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	InverseTeleporterBuyConfirm	已訂購反向傳送器！目前餘額為 [playerCredits]。\n按下 [B] 可重新擺放飛船內物品，[V] 以確認。\n\n按下按鈕並站上反向傳送器以啟動。\n
+NODE	InverseTeleporterInfo	\n反向傳送器是經過改裝的傳送裝置，會將你傳送至飛船外的隨機位置。在傳送前，你的所有物品會掉落在傳送器上。反向傳送器可同時供多人使用，冷卻時間為 3.5 分鐘。\n\n免責聲明：反向傳送器只能將你傳送出去，無法傳送回來，且你可能會被困住。公司對於量子糾纏與運氣不佳所導致的傷害，或肢體與頭部的損失概不負責。\n\n
+NODE	ItemsInStorage	在使用 [B] 搬動家具時，可按下 [X] 將其送入儲存區。你可以在此將其取回。\n\n以下為儲存中的物品：\n\n[storedUnlockablesList]\n
+NODE	JackOLanternBuy	你已請求訂購南瓜燈。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	JackOLanternBuyConfirm	已訂購南瓜燈！目前餘額為 [playerCredits]。\n按下 [B] 可重新擺放飛船內物品，[V] 以確認。\n
+NODE	JesterFile	小丑\n\nSigurd 的危險等級：90% 在它暴走前快離開！！你躲不了的，直接撤離。我覺得只要所有人待在外面夠久，它就會回到盒子裡\n\n學名：INSANEUS THINGUS\n根本沒有該死的科學紀錄！祝你好運，你知道的跟我們一樣多。我們就叫它小丑
+NODE	JetpackInfo	\n這個裝置能讓你到處移動！請務必小心使用！\n\n
+NODE	LassoManFile	LASSO\n\nSigurd 的危險等級：30% 但它真的讓我有點發毛\n\n學名：\n\n\n
+NODE	LockedForDemo	此內容於試玩版中已鎖定！\n\n
+NODE	LocustFile	遊蕩蝗蟲\n\nSigurd 的危險等級：0%\n\n學名：Anacridium-vega\n\n被稱為遊蕩蝗蟲，這是一種蝗蟲。與某些更傾向跳躍或飛行的物種不同，遊蕩蝗蟲幾乎不會停留在地面上，即使數量較少時也會彼此緊密聚集。當遭到掠食者干擾時，牠們會迅速散開，但對光源具有高度吸引力。\n\n
+NODE	LogFile1	日期：1968 年 8 月 22 日\n你好。我寫這篇日誌是為了讓自己保持理智。我在這台破舊又爛到不行的電腦上連最基本的功能都找不到，所以我叫 Desmond 幫我加了這個日誌功能。在這之前我只是把我知道的東西寫進圖鑑裡。我哥說我應該寫日記，所以我就盡量試試！我現在用比較專業的方式寫，因為這些日誌可能會變成歷史紀錄，反正只要沒有被清空，它們大概會在這裡待上好幾年。這是 Desmond 說的\n\n\n如果你是在未來看到這些內容，那你大概是另一個小隊的人。這裡的人員更替率超高，也許是因為這份工作爛透了，而且大家都是死著離開！等我有點經驗後，也許可以幫上忙。日誌結束。\n喔，我們的名字是：Sigurd（我）、Richard、Desmond、Jess。\n\n
+NODE	LogFile10	1968 年 9 月 27 日\ndesmond 要我把我們發現的東西寫下來，還要我「少寫點廢話」。所以我要寫超 多 廢 話。去他的。新來的成員叫 Lucas，他整天都很困惑又很害怕，真是個膽小鬼，至少他聞起來不像怪物。最近天氣一直很晴朗，明明都九月了，但這些防護服根本撐不住\nok 所以 desmond「追蹤了通訊」然後發現有一群人在別的地方假裝從公司大樓打電話給我們。他們在整個太陽系的另一端！！為什麼要離這麼遠。\n\n\nDesmond 說他不知道，但我在想。如果公司大樓裡真的有個大怪物，就像無線電裡那個聲音說的？他們把它困住，我們負責餵它讓它保持溫順。
+NODE	LogFile11	1968 年 9 月 30 日\n\n\ni 一直夢到公司大樓裡那個東西從巨大的混凝土牆裡衝出來。但我不知道它長什麼樣子，我只覺得它非常快，而且大到能遮住整片天空。我們一直找不到方法確認電話裡的聲音是不是真的，desmond 說距離太遠了。我問他能不能接管自動導航，他說我瘋了，那樣會害死我們。沒錯我就是瘋了 desmond\n\n\n他說我們得自己搭私人飛船去那些座標，但誰知道那裡到底有什麼。所以，如果什麼都沒有呢？\n我開始在想，我怎麼會不記得我們是怎麼來到這裡的，我只記得一些片段，比如搭接駁船去公司大樓簽合約。但我不記得登船，也不記得跟爸道別。有時候我會感覺胃裡像有個洞一樣，要很用力想才能記起自己的名字。在夢裡，我覺得那個「公司」根本沒有被困住，它只是躲在那裡。我不知道我們還會不會回家\n
+NODE	LogFile12	日期：1968 年 10 月 1 日\n我們又沒有零食和檸檬飲料包了。desmond 覺得震撼彈「更有價值也更划算」，如果他再拖一天不幫我訂東西，我就要在控制拉桿上拉屎，然後問他對他的震撼彈有什麼感想。desmond 別看這段\n\n\n我知道我不是什麼天才，但今天又變成我在負責電腦。每次我去 vow 外面，他們都說我臉白得像死人，所以就把我丟去顧螢幕。他們覺得我變軟弱了還怎樣。隨便啦，Doofus Lucas 才是那個會嚇到崩潰的人。祝你好運別讓他瘋掉。我晚上走出去就像在自家後院一樣！！只是我看到 Rich 在山丘上。他在河的另一邊。但那是三天前的事。我沒有在怕，只是外面變冷了。我覺得他們只是想找藉口讓我每天都待在螢幕前\n\n\n我很想念爸爸。我希望他沒有留在 titan。大家都在說那裡兩年後就不一樣了。jess 說他們快要開戰了，大家都在等那一天。每次我們去賣東西，公司大樓都在震動，好像裡面有個很大的熔爐。我們幾乎沒辦法睡覺來達成配額，而且情況每次都更糟。天啊，我感覺自己像被擠進針孔裡。我希望我們能回去。以前幫爸爸工作比較好，就算沒賺什麼，只有零用錢也好。我喜歡他開車帶我們出城去看瀑布，我們走上那些舊木樓梯。我只是想要一份正常的工作\n\n
+NODE	LogFile13	Desmond。1968 年 10 月 7 日。我正在使用我為 Sigurd 設計的日誌系統，但這一篇我設為私人，以避免被發現而影響團隊士氣。我們今晚可能無法達成配額。\n\n我認為這一切都是偽裝。我們被引導去相信這只是單純的交易，但我們真正的工作，是把自己餵進那台機器。它的飽足何時才會結束？它的飢餓何時會變得無法滿足？天知道，也許這和這些荒蕪的星球有關。無論是誰讀到這段，我很抱歉讓你承受這些。請好好度過今晚，並努力工作。因為，我們還能做什麼呢？\n\n
+NODE	LogFile14	1968 年 10 月 10 日\n\n\n我最近不太想寫東西。沒時間。但昨晚我發誓我聽到爸爸在通風口裡跟我說話，就是充電器下面那個。我不覺得我瘋了。拜託，我知道大家都這樣說，好啦好啦我知道！但我寫日誌就是為了讓自己保持理智，對吧？所以我還是寫下來。他問他在哪裡，呼吸很重，好像喘不過氣，就像被吸進引擎裡。他聽起來很害怕。他說他很渴\n\n\n我從來沒聽過爸爸那樣說話。也許只是我睡太少。天啊，那我現在該怎麼辦。也許我應該把那東西打開看看。\n\n\n也可能是因為我心裡過意不去，因為我們把從 Vow 那隻一直盯著我們的巨大無翅生物那裡偷來的小鳥賣掉了。靠，它跑得超快，我們當場就得撤，Mr. Doofus Lucas 到現在還在發抖。我不會再幹那種事了。\n他們叫我把小鳥放到桌上。我覺得我不該那麼做。現在我知道為什麼他們叫我做了……他們比我還心虛。膽小鬼。所以我直接當面跟 desmond 說。自己的髒事自己做。\n\n他一臉裝傻說什麼心虛什麼？不就是賣掉那顆鳥蛋嗎！然後我真不敢相信，他居然說這跟你早餐吃的蛋沒什麼不同。我說那東西破殼出來還看著我們，我才不會吃那種東西！那是活的！然後他開始講那些鬼話。「它能幫我們搬廢料嗎？能幫我們達標嗎？能提升效率和產能還有團隊協同嗎 bla bla blablablablablblblabalblbalabalbla\nblasbdalsbdabdalbalbdalbdlaslbdaldbalbsdlbadlbalbsdlbadlbalbsdlbadlbalsbdabldbasbalsbalbblBSLABALBBALBALBALBASLBASBABBLABSLDBAKDSJAFBSfkjhbaglsdsjbkabdA BLA BLA BLA BL AB LABL A BLA BLA BB LLABDLAB BLAL Abldblbdbd" 他那張肥嘴一直在那邊抖來抖去，就像公司電話裡的那個聲音。然後他還深吸一口氣，好像贏了一樣，就回去工作了。我要宰了他！！desmond 為什麼我不把你放到桌上，就像你們對 Rich 做的那樣，這樣你的團隊協同就知道了。\n\n我往通風口裡倒了一點葡萄汁。我真的很蠢，我不知道為什麼。也不多。我想應該不會有事吧\n\n
+NODE	LogFile15	日期：1968 年 10 月 13 日\n這是 Desmond。Sigurd 無法書寫。但我認為有必要留下紀錄，而且今晚我們都無法入睡。事件發生後，他幾乎呈現緊張性木僵。他說幾天前在充電器下方的進氣通風口聽到了他父親的聲音；我真希望他在事件發生前就告訴我們，但我傾向相信他至少對自己是誠實的。在這種狀態下，他對自己與他人都是威脅，因此我們現在只剩三人小隊——一個我們恐怕無法承受的打擊。\n\n以下是 Jess 和 Lucas 的說法。當時出現刮擦聲，他們很快發現聲音來自通風口。他們認為那代表飛船需要維修，可能還需要更換機油。Lucas 去拿工具準備檢查。然而在他回來之前，通風口爆裂，噴出濃稠的紅色液體，其中幾乎可以確定混有骨頭與毛髮的碎片，像堵塞馬桶被沖開後的內容物一樣灑滿地板。將通風口完全清空、清理飛船並去除惡臭，是一件我不願任何人經歷的事，尤其是在 Sigurd 試圖阻止我們的情況下。現在，漂白水刺鼻的氣味反而讓人鬆一口氣。\n\n為什麼？為什麼會發生？我無法合理接受 Sigurd 的「解釋」——說他父親 somehow 在飛船裡。他一向想像力豐富，更何況現在的精神狀態。我認為是前一個小隊——或再前一個——為了逃避罰款而做出的行為，而方法就是把錯誤藏起來。受害者的遺體已被排出，我們永遠無法辨認其身分。\n\n這已經無法維持。如我所說，我遵循了手冊的每一個步驟。我努力讓一切運作。我最大化效率。我維持士氣。現在連我都開始焦躁不安。這份工作就像是被設計來摧毀我！我已經做對了一切，我已經盡了全力，但我們仍需要奇蹟才能回到正軌。剩下唯一的選擇，是去做我無法做到的事。所以也許我會去做。\n\n我會親自提交辭職信。是時候看看我們究竟是在為誰工作。不，Sigurd，這不是我們真正的工作。我們的工作才剛開始。而唯一的出口，就是繼續往更深處前進。\n\n
+NODE	LogFile16	對，是 Sigurd，在回報。今天我們有工作。\r\ndate : October 15sth\r\n\r\n\r\n\r\n\r\n好啦好啦。他們要我寫。他們覺得我看起來很難過，以為我把想法寫進這台破機器裡就會露出大大的笑容。我很開心，我只是想工作，我只想工作，不想說話。這樣有罪嗎？？？？沒有，我當然不想吃東西，因為我根本不餓\n\n他們大概真的覺得我會把大家炸掉之類的。結果反而讓 Desmond 在那邊偷懶。\r\n\r\n他還在想什麼大叛亂。是怎樣，我們要衝去櫃檯開槍嗎？聽起來不錯啊 Desmond，超棒的。他一直在講什麼罷工，這種詞就是用來形容坐在你那又髒又肥的屁股上挖鼻孔還自以為很帥。我剛剛走進來差點踩到他的紙滑倒。我手上拿著一個生鏽的金屬研磨器，搞不好真的會切掉什麼東西。我甚至會在流血死掉之前先拿來對付他。抱歉，這有點噁\r\n\r\n整面牆都被他的圖表貼滿了。至少他還是那個巫師。說不定他會發明一根大魔杖把我們傳送出去。結果他還覺得是我瘋了。那是我爸！我聽到他，我還以為是我瘋了。但那真的是我爸。我看到的。對，我也不知道他怎麼會在飛船的通風口裡。我好想吐。這根本說不通。你覺得我在編嗎？\r\n那我才覺得你瘋了 Desmond。要是我把你那些紙全部拿去撕爛會怎樣，天啊。我爸死了。是我們殺了他。\r\n\r\n嗯.....寫這個沒用。我還是回去工作好了。我只想工作。\r\n\n
+NODE	LogFile2	這套防護服把我擠得像個該死的木乃伊！我是個成年人，下面給點空間行不行！我要被勒死了！我終於找到工作了，結果就跟我爸說的一樣。這裡每個人都臭死了。尤其是 Rich。我真的想把他丟進湖裡。我才不管那湖是什麼做的。我超喜歡顧螢幕的工作。喔\n我忘記寫日期了，是 1968 年 8 月 24 日。這鍵盤也壞掉了 dsadjilfasqt..f/g;\n\n\n今天我們找到幾個平底鍋跟一根大釘子。幾乎不值錢。公司到底拿這些東西幹嘛\n\n
+NODE	LogFile3	這幾天我們算是「上手了」。這是 Rich 一直在講的話，他聞起來像壞掉的鮪魚罐頭。這是我參加過最爛的夏令營。喔.. 日期是 1968 年 8 月 27 日。 \r\n我們會確保有人拿著鏟子，看到會動的東西就直接敲，還會安排一個人負責「螢幕工作」，用那些字母跟數字打開大型安全門。去問 Desmond 那個魔法師吧，我覺得他只是把門上寫的代碼打進去而已。就這樣\r\n\r\n今天我們把一些東西賣給公司。我在櫃檯後面聽那些瘋掉的聲音，整個人都冷靜下來了。其他人完全沒反應？？ \r\n我的手電筒甚至照不進去，光束直接變黑。\r\n\r\n
+NODE	LogFile4	日期是 1968 年 8 月 31 日。我又被分去顧攝影機，我本來就討厭在這顆星球上走來走去。哈哈報應來了，下雨了！！！我就坐著。這些給螞蟻用的小床根本睡不著\n\n\n我最近一直在想。我覺得這份工作很可疑。如果你看到這段，你大概跟我一樣來到這裡。薪水很好，合約只維持一個季度。他們在電話裡用一個奇怪的聲音替你做了什麼「評估測驗」。你在接駁船上跟隊友一起簽了合約。但整個過程你完全沒跟任何人說話。接駁船是自動駕駛的，我覺得電話裡那個聲音是假的。我最近一直做惡夢，我覺得   我只想回家。但我不會爬回去，在我爸家門口哭著抓門。那不是他的兒子。那不是 Sigurd！\n\n
+NODE	LogFile5	我今天一大早就被叫醒，因為我們要去公司大樓把那些沒用的垃圾賣掉。回收率是 120%，Desmond 說這很少見，他不想錯過，他一直像個白癡一樣盯著看，就像股票一樣。\n\n這裡還是一樣爛，Rich 還是臭得跟一坨屎一樣。我幾乎睡不著。我在公司大樓的牆後面聽到最糟糕的聲音，聽起來就像我媽用來磨種子和香料的研缽跟研杵。我現在還聽得到。其他人都沒聽到。Jess 說我「想家了」，才沒有，我只是受夠這套廉價爛裝備\r\ndate: Septermber 4, 1968\n\n
+NODE	LogFile6	他們把我丟去顧螢幕，然後他們全都搖搖晃晃地回來了，，但 Rich 不在，他們說找不到他。Desmond 說那東西扭斷了他的脖子，但他沒看到。我想去找 Rich，就算他死了也要找到，但他們都是膽小鬼！他們的臉空白得像白痴一樣，他們那顆破腦袋裡什麼都沒在動，他們只想離開。如果我出去，他們也會把我丟下。我們都討厭 Rich，但我們不想變成這樣。這不值得，真的不值得。我們只拿到一把剪刀、一整箱郵票和一捆電線，賣不了多少錢。根本不值得，公司到底要這些東西幹嘛？\n\n\n我們最後一次見到 Rich 的日期是 1968 年 9 月 7 日\n\n
+NODE	LogFile7	日期：1968 年 9 月 13 日\n\n不知道為什麼，是我打公司電話去通報那場事故。他們都嚇得不敢打。那聲音還是跟我在家面試時電話裡聽到的一樣假，還有那些愚蠢的訓練影片。但我講的它好像有聽到，因為它說會通知家屬、找替補，還有其他什麼的。它講得超快。\n\n\n我發現只要你站在公司大樓那面牆旁邊，對講機裡一直都能聽到尖叫聲。他們本來不相信我，現在信了。聽起來跟我幾週前聽到的一模一樣。他們想辭職。我說我不是膽小鬼。我才剛拿到這份工作\n\n
+NODE	LogFile8	我在對講機裡跟一個聲音對話，它聽起來像研缽和杵的一部分。他跟我說黃金星球是真的存在的，不是傳說。他還說它不是被隕石撞毀的。他說那顆星球被「野獸」吞掉了，他們在牠體內被消化。我問野獸是什麼，他說他不知道！他說牠吃掉了整個星球，然後他們什麼都忘了。\r\n\r\n我沒辦法讓他停下來。但我跟他說他在一面大牆的另一邊，我可以把他救出來。我說他就在那棟建築裡。然後他就開始崩潰亂叫/. 我聽不清他在說什麼，好像提到什麼「吐出外殼」。所以我就把對講機關掉了。真是個怪人\n\r\nJess 說黃金星球只是個故事。我說我知道，我又不是白痴。然後她說我應該辭職，如果我辭她也辭。所以她就留下來了\n\n
+NODE	LogFile9	日期：1968 年 9 月 18 日\n這個週末感覺 Desmond 跟 Jess 好像清醒了一點。我們幾天後會有第四個隊員加入。我們不再冒險了，雖然賺得比較少，但感覺安全多了，我也睡得比較好。但還是很爛。我發誓我還是聞得到 Rich 的味道，他真的臭到那種程度\n\n\n我在說電話裡的聲音聽起來是假的。然後 Desmond 想到一個奇怪的主意。他是那個魔法師，所以他覺得可以利用我打給公司的那通電話來找出聲音是從哪裡來的。我不知道他為什麼要這樣做，但他看起來很認真。他最近一直在用終端機。\n\n
+NODE	LoudHornBuy1	你已請求訂購大型喇叭（船隻升級）。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	LoudHornBuyConfirm	已訂購大型喇叭！目前餘額為 [playerCredits]。\n按下 [B] 可重新擺放飛船內物品，[V] 以確認。\n\n拉動繩索即可啟動大型喇叭。\n
+NODE	LoudHornInfo	\n可用於在任何距離與隊友溝通，無需對講機！喇叭聲能傳遍各處。但它代表什麼？由你決定！\n\n\n
+NODE	ManeaterFile	食人者\n\nSigurd 的危險等級：1000%\n\n你就像我的兒子一樣\n\n學名：Periplaneta clamorus\n\n食人者被歸類為 Periplaneta 屬的一種蟑螂。對許多人而言，這種生物仍無法與其神話傳說分離，因此完整描述必須包含簡短的歷史背景。\n\n在被正式發現之前，它最早由 Caswella 礦場的工人命名——該礦場是 Lepus 小行星帶中眾多銅礦之一，時間為 1951 年。Caswella 礦場自戰爭結束後逐漸衰退，營運十二年後即將關閉；在食人者傳聞開始流傳之前，工作環境早已惡化，因此當時的管理層與媒體並未認真看待此事。然而同年 6 月 23 日，一具被撕裂的屍體從礦場最深處被帶出。\n\n後來確認死者為資深礦工 Brett Goldent。驗屍結果記錄為設備故障導致的意外死亡。然而這個故事迅速傳開，食人者成為著名的都市傳說。直到六年後，在 DEEP57 洞穴探險任務中首次被記錄。該任務由 Brett Goldent 的兒子 Simon Goldent 領導，目的是釐清其父親之死的真相。原本試圖推翻傳說的 Simon，將這次發現描述為「創傷性的」。\n\n這對科學界而言是一項重大發現。當時認為如此巨大的生物不可能存在於地下洞穴中，而現在它被認定為已知最大型的穴居生物之一。\n\nPeriplaneta clamorus 主要以植物殘骸與動物屍體為食，這些物質通常由流水帶入洞穴。牠似乎未發展出對大型掠食者的本能恐懼。因此在幼體階段，可能對人類感到好奇或無動於衷。然而幼體會對巨大聲響、血液與傷口產生恐懼反應。部分研究者觀察到幼體具有類似孤獨的行為表現。\n\n不安或恐懼似乎會加速 Periplaneta clamorus 的成長症狀。其變態過程極為突然，是一種危險現象。最明顯的徵兆為下顎分泌出酸性泡沫狀液體；此物質被認為是催化劑，且在變態開始時會大量排出。\n\n成體移動速度極快，並能透過高頻率敲擊口器發出巨大聲響。若遭遇 Periplaneta clamorus，建議緩慢後退並保持距離，牠似乎會等待你主動接近並避開視線。當牠突然停下並將肢體向後弓起，同時呼氣時，代表牠即將發動追擊。願上帝保佑你\n\n\n\n
+NODE	ManticoilFile	四翼鳥\n\nSigurd 的危險等級：0%\n\n學名：Quadrupes-manta\n四翼鳥是一種屬於鴉科（Corvidae）的雀形目鳥類。相較於其早期祖先，牠們體型更大，翼展約為 55 至 64 英吋。最顯著的特徵是擁有四片翅膀。後方翅膀主要用於低速時穩定飛行，而前方兩片翅膀則負責主要升力。牠們圓潤的身體呈亮黃色，並在主要（後側）羽毛上帶有黑色邊線或條紋。\n\n四翼鳥主要以小型昆蟲為食，也會捕食小型囓齒動物。牠們具有高度智慧且具社會性。對人類幾乎沒有威脅，性情普遍溫和，但可能傳播狂犬病（Rabies）、Rubenchloria 與 Pitt 病毒。\n\n
+NODE	MapperInfo	\n最先進的地圖裝置，透過光探測與測距技術，提供周圍環境的俯視視圖。\n\n
+NODE	MarchInfo	61-March\n----------------------\n\n環境：March 長期處於細雨天氣，地形更加廣闊。\n\n歷史：由於其雙生星球 Vow 的存在，這顆星球經常被忽視。\n\n生態：未知\n\n
+NODE	MaskHornetsFile	假面大黃蜂\n\n假面大黃蜂
+NODE	MicrowaveBuy	你已請求訂購微波爐。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	MicrowaveBuyConfirm	已訂購微波爐！目前餘額為 [playerCredits]。\n
+NODE	MoonsCatalogue	歡迎使用星球目錄。\n要將自動導航設為前往某顆星球，請輸入 「ROUTE」。\n要查看任一星球資訊，請輸入 「INFO  (資訊)」。\n____________________________\n\n* Company building (公司大樓)  // 收購價格為 [companyBuyingPercent]。\n\n* Experimentation [planetTime]\n* Assurance [planetTime]\n* Vow [planetTime]\n\n* Offense [planetTime]\n* March [planetTime]\n* Adamance [planetTime]\n\n* Rend [planetTime]\n* Dine [planetTime]\n* Titan [planetTime]\n\n
+NODE	MustBeInOrbit	要購買裝飾物時，飛船不能處於降落狀態。\n\n
+NODE	NoCreatureData	尚未收集到此生物的資料。\n需要進行掃描。\n\n
+NODE	NotInStock	此物品目前缺貨！\n\n
+NODE	NoUnlockedStoryLogs	[資料已損毀或被覆寫]\n\n
+NODE	NutcrackerFile	胡桃鉗\n\n房屋的守衛者。\n\n牠們用唯一不知疲倦的眼睛注視著，只能感知動作。牠會記住最後看到的生物，無論對方是否仍在移動。
+NODE	OffenseInfo	21-Offense\n----------------------\n\n環境：據信從其姊妹星球 Assurance 分裂而出，Offense 擁有相似的乾燥崎嶇地形，但生態系有所不同。\n\n歷史：21-Offense 被歸類為小行星星球，似乎作為獨立天體存在的時間不超過數百年。此地的工業設施已遭受損壞；推測其建造時間早於 21-Offense 分裂之前。\n\n生態：一個競爭激烈且高度適應的生態系支撐著具攻擊性的生命體。前往 21-Offense 的旅者應明白，這裡並不適合膽小者。\n\n
+NODE	OtherCommands	其他指令：\n\n>VIEW MONITOR\n切換主監視器的地圖畫面開啟／關閉\n\n>SWITCH [Player name]\n將主監視器視角切換至指定玩家\n\n>PING [Radar booster name]\n讓雷達增幅器發出聲音\n\n>TRANSMIT [message]\n透過訊號翻譯器傳送訊息\n\n>SCAN\n掃描目前星球剩餘物品數量\n\n\n
+NODE	PajamaSuitBuy1	你已請求訂購睡衣套裝。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	PajamaSuitBuyConfirm	已訂購睡衣套裝！目前餘額為 [playerCredits]。\n\n
+NODE	ParserError1	[未提供對應此詞的操作。]\n\n
+NODE	ParserError2	[未提供操作對象，或輸入的詞語錯誤或不存在。]\n\n
+NODE	ParserError3	[此操作無法作用於該對象。]\n\n
+NODE	PingedRadarBooster	已觸發雷達增幅器。\n\n
+NODE	PlushiePajamaManBuy	你已請求訂購絨毛睡衣人偶。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	PlushiePajamaManBuyConfirm	已訂購絨毛睡衣人偶！目前餘額為 [playerCredits]。\n按下 [B] 可重新擺放飛船內物品，[V] 以確認。\n
+NODE	PufferFile	孢子蜥蜴\n\nSigurd 的危險等級：我 ,不知道 大概 5% 吧 我只是很討厭這個肥短腿小混帳\n\n學名：Lacerta-glomerorum\n俗稱氣囊獸或孢子蜥蜴，Lacerta-glomerorum（屬於短吻鱷科 Alligatoridae）是體型最大且最沉重的爬行類之一。儘管擁有巨大的口部，牠們實際上是草食性，咬合力並不強。其尾部的球狀構造被認為會分泌一種化學物質，能吸引並加速真菌 Lycoperdon perlatum 的生長，之後再透過甩動尾巴釋放孢子作為防禦機制——這是一種獨特的互利共生關係。\n\n孢子蜥蜴性情非常膽小，傾向避免任何衝突。如果威嚇行為無效，牠們仍可能發動攻擊，因此不建議將其逼入角落或追逐。歷史記錄顯示，數百年前曾有人類部分馴化孢子蜥蜴，但後來因其尾部具有藥用價值而轉為採集用途。\n
+NODE	PurpleSuitBuy1	你已請求訂購紫色防護服。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	PurpleSuitBuyConfirm	已訂購紫色防護服！目前餘額為 [playerCredits]。\n\n
+NODE	RadarBoosterInfo	\n雷達增幅器具有多種用途！\n\n使用「SWITCH」指令加上雷達增幅器名稱，可在主監視器上查看其畫面（需先啟動）。\n\n使用「PING」指令加上雷達增幅器名稱，可讓裝置發出特殊聲音。\n\n使用「FLASH」指令，可讓雷達增幅器發出強烈閃光。\n\n
+NODE	RadMechFile	古代鳥（機器人）\n\n 古代鳥是一種具有人形設計的自主攻擊型戰爭兵器。其高度約 19 英尺、寬度約 11 英尺，最具代表性的外觀特徵為頭部的探照燈，可輸出 100,000 流明，以及胸前的遠距聲波裝置，亦被稱為音波砲。肩部還配有額外的揚聲器，用於遠距離傳播聲音。古代鳥的左臂為爪狀結構，右臂則為噴射裝置，能發射火箭推進榴彈，亦可在近距離噴射高溫火焰。古代鳥是最早被使用並大量生產的軌道外武器之一。\r\n 古代鳥的開發者自其首次記錄出現以來一直備受爭議。首次記錄為 2143 年 12 月 18 日，當時大量古代鳥入侵了\n\n古代鳥的設計——甚至包括金屬的淬鍊方式——似乎刻意用來隱藏其來源。它被稱為「會行走的勒索信」。\r\n 古代鳥的腿部同時具備火箭功能，使其能長距離移動並高效率搜尋目標。但這項設計更可能是為了讓其能從軌道進入並降落。其使用的材料與燃料與約 2130 年的載人太空船相似。\r\n古代鳥會降落於目標星球並永久停留。雖然其燃料通常遠超單次航行所需，但目前尚未發現任何顯示其具備「遷移」行為的程式。然而仍有未經證實的報告指出，部分古代鳥在沉睡數百年後會自主前往其他星球。\r\n古代鳥曾被稱為「Al」，源自英國軍方給予的代號「A16-L31」。然而在 2384 年，後龐克音樂計畫 Under Remora 發表歌曲《Old Birds》並成為邪典熱門作品；三年後，街頭藝術家 Land Eyrie 在其同名代表作中，將這些自動機描繪為如候鳥般在行星間飛行與降落——此形象被視為現代文化中最具代表性與影響力的圖像之一，也確立了「古代鳥」這一名稱。\r\n 在 2356 年，5-Embrion 被「The Boat」列為禁止旅行與定居的封鎖區；目擊者形容古代鳥「排列在地平線上」。雖然至今看似無法運作，但仍有合理風險顯示其中許多仍處於休眠狀態，因此該星球很可能會持續維持此狀態。這顆小型星球很可能曾被用作測試古代鳥飛行與降落能力的試驗場。
+NODE	RecordPlayerBuy	你已請求訂購唱片機。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	RecordPlayerBuyConfirm	已訂購唱片機！目前餘額為 [playerCredits]。\n按下 [B] 可重新擺放飛船內物品，[V] 以確認。\n
+NODE	RendInfo	85-Rend\n----------------------\n\n環境：其行星環繞白矮星，導致環境寒冷且不適居。持續暴風雪降低能見度。\n\n歷史：多位知名探險者曾在此失蹤，使其聲名狼藉。由於環境惡劣，其遺體幾乎不可能被尋獲。\n\n生態：幾乎不可能存在複雜生命。\n\n
+NODE	ReturnedFromStorage	已從儲存區取回物品！
+NODE	RomTableBuy1	你已請求訂購浪漫桌。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	RomTableBuyConfirm	已訂購浪漫桌！目前餘額為 [playerCredits]。\n按下 [B] 可重新擺放飛船內物品，[V] 以確認。\n
+NODE	SapsuckerFile	巨型啄木鳥\n\nSigurd 的危險等級：10% 算了 80%\n\n學名：Sphyrapicus cursus \n\n巨型啄木鳥是一種屬於 Sphyrapicus 屬的啄木鳥，也被稱為吸汁啄木鳥。顧名思義，牠們是該類物種中體型最大的。雄性平均身高約 5 英尺，而雌性則可達 7 至 9 英尺。牠們為不會飛行的鳥類，但仍保留退化的翅膀構造，通常被羽毛覆蓋。身體呈棕色或黑色，臉部帶有白色與紅色的標記。牠們視力敏銳，視野接近 360 度。成體在其棲息的森林型星球中，屬於運動能力極強的物種之一。\n\n牠們的食物來源包含昆蟲與樹液，並會捕食小型囓齒動物。巨型啄木鳥終身配對，通常由雄性負責狩獵與覓食，而雌性負責保護地面巢穴。牠們是極具保護性的母親，部分源於其機會主義的本性，若有任何生物闖入其領地，牠們會嘗試將其撕成碎片餵食幼鳥。牠們對人類同樣具有危險性，建議遠離其活動範圍。\n\n牠們對部分森林與生態系造成破壞；雖然繁殖速度不如其他物種，但牠們具有遊牧性，能迅速長距離移動，使族群難以追蹤。\n\nRichard 也是一隻巨型啄木鳥\n
+NODE	ScanInfo	[scanForItems]\n
+NODE	SecretDrillLog	U
+NODE	SendSignalTranslator	已傳送訊號。\n\n
+NODE	ShipCosmeticsList	要訂購任何物品，請使用 BUY。\n____________________________\n\n* 傳送器      //    價格：$400\n\n\n\n\n\n
+NODE	ShipInMotion	飛船正在起飛或降落，無法執行此操作！\n\n
+NODE	ShovelInfo	\n用來挖掘！公司不鼓勵對當地生態造成暴力或傷害。\n鏟子無法裝備於工具腰帶。\n\n
+NODE	ShowerBuy1	你已請求訂購淋浴設備。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	ShowerBuyConfirm	已訂購淋浴設備！目前餘額為 [playerCredits]。\n按下 [B] 可重新擺放飛船內物品，[V] 以確認。\n
+NODE	SignalTranslatorBuy	你已請求訂購訊號翻譯器。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	SignalTranslatorBuyConfirm	已訂購訊號翻譯器！目前餘額為 [playerCredits]。\n按下 [B] 可重新擺放飛船內物品，[V] 以確認。\n\n\n訊號翻譯器可透過輸入「transmit」指令並附上 10 個字元以內的訊息來啟動。\n
+NODE	SignalTranslatorInfo	\n使用「transmit」指令可向所有隊員廣播文字訊息。訊息長度需在 10 個字元以內。\n\n\n
+NODE	SnarefleaFile	陷阱蜈蚣\n\nSigurd 的危險等級：30%\n\n學名：Dolus-scolopendra。 \n一種體型巨大的節肢動物，屬於唇足綱。其身體會產生絲狀物，主要用於將自身彈射至隱蔽位置。其外骨骼相對脆弱，可能因高處墜落而死亡。陷阱跳蚤不具毒性，咬合力也不強，而是透過纏繞大型獵物並使其窒息來彌補這些弱點。\n\n陷阱跳蚤偏好黑暗且溫暖的環境。牠無法在低溫下存活，通常會避開開闊空間與陽光 把那些老鼠拖到外面去，或乾脆狠狠干爆牠們！我覺得牠們的內臟可以做成不錯的奶昔，，\n\n
+NODE	SofaChairBuy	你已請求訂購沙發椅。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	SofaChairBuyConfirm	已訂購沙發椅！目前餘額為 [playerCredits]。\n
+NODE	Start	歡迎使用 FORTUNE-9 作業系統\n\t由公司提供\n\n祝你有個愉快的 [currentDay]。\n\n輸入「Help」以查看指令列表。\n\n\n\n\n
+NODE	StartFirstTime	 __      _____ _    ___ ___  __  __ ___ \r\n \\ \\    / | __| |  / __/ _ \\|  \\/  | __|\r\n  \\ \\/\\/ /| _|| |_| (_| (_) | |\\/| | _| \r\n   \\_/\\_/ |___|____\\___\\___/|_|  |_|___|\r\n\n\n歡迎使用 FORTUNE-9 作業系統\n\t由公司提供\n\n輸入「Help」以查看指令列表。\n\n\n\n\n
+NODE	SuitsList	此選單會依配額輪替更新，請記得下週再來查看！\n____________________________\n\n[unlockablesSelectionList]\n
+NODE	SurvivalKitInfo	\n生存套件包含以下必備物資：\n\n* 手電筒  x4 \n* 對講機 x4\n* 鏟子  x2\n\n
+NODE	SwitchedCam	已將雷達切換至該玩家。\n\n
+NODE	SwitchRadarCamPlayer 1	正在切換雷達畫面。\n\n
+NODE	TableBuy1	你已請求訂購桌子。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	TableBuyConfirm	已訂購桌子！目前餘額為 [playerCredits]。\n按下 [B] 可重新擺放飛船內物品，[V] 以確認。\n
+NODE	TeleporterBuy1	你已請求訂購傳送器。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	TeleporterBuyConfirm	已訂購傳送器！目前餘額為 [playerCredits]。\n按下按鈕即可啟動傳送器。它會傳送目前在飛船雷達上被監視的玩家。傳送時無法保留手持物品。冷卻時間約為 10 秒。\n\n按下 [B] 可重新擺放飛船內物品，[V] 以確認。
+NODE	TeleporterInfo	按下按鈕即可啟動傳送器。它會傳送目前在飛船雷達上被監視的玩家。傳送時無法保留手持物品。冷卻時間約為約十秒。
+NODE	TelevisionBuy1	你已請求訂購電視。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	TelevisionBuyConfirm	已訂購電視！目前餘額為 [playerCredits]。\n按下 [B] 可重新擺放飛船內物品，[V] 以確認。\n
+NODE	ThumperFile	重擊者\n\nSigurd 的危險等級：90%\n\n學名：Pistris-saevus\n半身怪，又稱重擊者，是一種高度具攻擊性的肉食性物種，屬於軟骨魚綱（Chondrichthyes）。牠們的骨骼由軟骨構成，使其身體具有延展性與橡膠般的質感。牠們在孵化時必須吞食自身的下半部腿部以脫離卵殼，而這些下肢本來就幾乎無法正常使用。牠們的手臂（或前肢）非常強壯，偶爾會用來踩踏獵物。牠們在直線移動時能達到極高速度。\n\n牠們是執著的獵手，通常位於食物鏈頂端。其主要弱點為智力有限以及完全沒有聽覺。若遭遇重擊者，最佳的生存方式是離開其視線範圍，因為牠在轉彎時速度較慢，且難以追蹤目標。\n\n由於該物種快速且不穩定的演化特性，有學者推測，重擊者是 Thistle 星雲周邊行星中突變增加並促進物種分化的案例之一。
+NODE	TitanInfo	8-Titan\n----------------------\n\n環境：冰凍且平坦的地貌。\n\n歷史：此星球似乎曾被開採資源。在巨大的工業設施中很容易迷失方向，地表散布著多個入口。\n\n生態：據傳危險生物棲息於龐大的地下隧道網絡中。\n\n
+NODE	ToiletBuy1	你已請求訂購馬桶。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	ToiletBuyConfirm	已訂購馬桶！目前餘額為 [playerCredits]。\n按下 [B] 可重新擺放飛船內物品，[V] 以確認。\n
+NODE	TooManyItems	運輸載具一次最多只能承載 12 個物品\n請在物品送達後儘快領取！\n\n\n
+NODE	TulipSnakeFile	鬱金香蛇\n\nSigurd 的危險等級：1%\n\n學名：Draco tulipa\n鬱金香蛇，又稱鬱金香蜥蜴，是一種飛行蜥蜴。牠們可透過修長的四肢與翅膀輕易辨識，翅展可達同屬（Draco）其他物種的兩倍，並擁有異常鮮豔的顏色與花紋。其名稱來自頸部下方與頭後的皮膜，外觀如大型花瓣。（其他特徵包含額外的一對眼睛與深度分叉的尾巴。）\n\n牠們的行為固執且過於無畏。事實上，鬱金香蛇幾乎不會逃避掠食者。但諷刺的是，許多生物學家認為其花朵般的外觀更像是一種偽裝，而非威嚇。這些特徵同時也在其複雜的求偶行為中扮演重要角色，其模式更接近鳥類。\n\n獨特的是，將沉重且巨大的物體抬升至空中，常被觀察為其求偶展示的一部分；牠們能搬運至少自身兩倍大小的石頭與植物，以吸引潛在伴侶。具有保護性、嫉妒心強且進入興奮狀態時，雄性可能會為爭奪喜愛的物體而展開拉鋸戰，甚至包含其他活體生物。\n
+NODE	TZPChemicalInfo	\n這種安全且合法的藥劑能顯著提升你的工作表現！你在搬運沉重物品時進行長距離移動的能力將無人能及！警告：長時間暴露於 TZP 氣體可能對大腦造成影響。請遵循容器附帶的使用說明。\n別忘了分享！\n\n\n\n
+NODE	VainShroudFile	紅蔓蕨\n\nSigurd 的危險等級：這不是生物。\n\n學名：Phlebodium ruber\nVain Shrouds，亦常被稱為 Vains，是一種屬於水龍骨科（Polypodiaceae）的根莖型蕨類。在理想條件下，其葉片高度可達 8 英尺，平均約為 6 呎 11 吋，寬度為 30 至 50 公分。其根系異常發達，而且有點 有點點點點點點點點點點點刺。\n\n由於其強大的繁殖能力與巨大的體型，牠們會佔據大量空間，造成視野受阻，且難以清除。牠們會排擠健康植物，且幾乎沒有營養價值，同時具有高度可燃性。已觀察到 Vain Shrouds 與綁架狐之間存在強烈的互利共生關係，因此當其數量大量擴張時具有高度危險性。基於這些與其他對生態及農業的危害，Vains 自 1963 年起被 ITDA 列為有害雜草。\n\n其原生星球不明，最早於 1963 年由植物學家 Alex Kurt 在 CoRoT-7b 上記錄，並在數週後於同一星系的另一側再次被發現。常見的說法認為其因食用後具有輕微致幻效果而被人類帶往各星球，但其歷史仍籠罩於謎團之中。\n\n醒醒.. 公司在投放艙裡摻了種子，他們知道我們討厭這些櫻紅色的東西所以賣我們除草劑賺錢 抱歉剛剛全大寫\n\n
+NODE	VehicleAlreadyOrdered	為了船員安全，公司同一時間僅允許一台巡航車運作，但已偵測到現有巡航車。\n\n
+NODE	ViewInsideShipCam 1	切換雷達畫面\n\n
+NODE	VowInfo	56-Vow\n----------------------\n\n環境：潮濕。\n\n歷史：Vow 似乎曾有多個殖民地分布於各大陸，但如今已無任何生命跡象，其消失成為謎團。\n\n生態：多樣，植物生長茂盛\n\n
+NODE	WalkieTalkieInfo	\n用於保持聯繫！當對講機在你的物品欄中時，可以聽到其他玩家的聲音。必須手持並按下按鍵才能傳送語音。\n\n
+NODE	WeedKillerInfo	對付那些惱人的雜草！只需持續將噴頭對準根部並穩定按壓扳機即可！\n
+NODE	WelcomeMatBuy	你已請求訂購迎賓地墊，讓每個人都有回到家的感覺。\n總價格為 [totalCost]。\n\n請輸入「CONFIRM (確認)」或「DENY (拒絕)」。\n\n
+NODE	WelcomeMatBuyConfirm	已訂購迎賓地墊！目前餘額為 [playerCredits]。\n按下 [B] 可重新擺放飛船內物品，[V] 以確認。\n
+NODE	WelcomeNode	BG IG, A System-Act Ally\nCopyright (C) 2084-2108, Halden Electronics Inc.\n由公司提供。\n\n\n\nFORTUNE-9 87.7/10MHZ 系統 BIOS\n\n目前日期：Tue  3-7-2532\n目前時間：8:03:32.15\n\n請輸入你最喜歡的動物： 
+NODE	WelcomeNode2	\n請描述你在團隊中的角色定位： 
+NODE	ZapGunInfo	\n最專業的自我防護裝備，能釋放高達 80,000 伏特的電壓！\n\n為了盡可能維持準確瞄準，請左右擺動裝置以抵消偏移並對抗電流牽引。只要電流持續輸出，就能持續造成暈眩效果。\n\n
+# ===== Auto-added missing REGEX rules =====
+# Added at: 2026-04-23 20:26:12
+REGEX	Welcome to the exomoons catalogue.	歡迎使用星球目錄。
+REGEX	\\[There was no action supplied with the word.\\]	[該字詞並無附帶任何動作]
+REGEX	\\[There was no object supplied with the action, or your word was typed incorrectly or does not exist.\\]	[該動作未傳入任何參數，或是你輸入的字詞有誤或不存在]
+REGEX	To route the autopilot to a moon, use the word ROUTE.	要將自動駕駛導航至星球，請輸入「ROUTE」。
+REGEX	To learn about any moon, use the word INFO.	要查看任意星球資訊，請輸入「INFO (資訊)」。
+REGEX	Buying at	公司收購價格：
+REGEX	Other commands:\n\n	其他指令：\n\n
+REGEX	To toggle on AND off the main monitor's map cam\n\n	開啟／關閉主監視器的地圖攝影機\n\n
+REGEX	>SWITCH [Player name\\]	>SWITCH [玩家名稱]
+REGEX	To switch view to a player on the main monitor\n\n	將主監視器畫面切換至指定玩家\n\n
+REGEX	>PING [Radar booster name\\]	>PING [雷達增幅器名稱]
+REGEX	To make a radar booster play a noise.\n\n	讓雷達增幅器發出聲音\n\n
+REGEX	>TRANSMIT [message\\]	>TRANSMIT [訊息]
+REGEX	To transmit a message with the signal translator\n\n	透過訊號轉換器傳送訊息\n\n
+REGEX	To scan for the number of items left on the current planet.	掃描目前星球上剩餘物品數量。\n\n>FLASH [雷達增幅器名稱]\n啟用雷達增幅器閃光。\n\n>EJECT\n緊急彈射。
+REGEX	Routing autopilot to (.+?)\nYour new balance is [playerCredits\\].\n\nPlease enjoy your flight.\n\n	正在將自動駕駛設定至 $1\n你的新餘額為 [playerCredits]\n\n祝你旅途愉快。\n\n
+REGEX	Routing autopilot to (.+?)\nYour new balance is [playerCredits\\].\n\nGood luck.\n\n	正在將自動駕駛設定至 $1\n你的新餘額為 [playerCredits]\n\n祝你好運。\n\n
+REGEX	The cost to route to (.+?) is (.+?). It is \ncurrently (.+?) on this moon.\n\nPlease CONFIRM or DENY.\n\n\n	前往 $1 的費用為 $2。\n目前該星球狀態為 $3。\n\n請輸入「CONFIRM」或「DENY」。\n\n
+REGEX	You could not afford these items!	你無法負擔這些物品！
+REGEX	Your balance is (\\$[0-9]+). Total cost of these items is (\\$[0-9]+).	你的餘額為 $1，這些物品的總價格為 $2。
+REGEX	\\[No items stored. While moving an object with B, press X to store it.\\]	[目前沒有儲存物品。使用 B 搬運物品時，按下 X 可將其存入倉庫]
+REGEX	There are ([0-9]+) objects outside the ship, totalling at an approximate value of (\\$[0-9]+).	船外共有 $1 件物品，總價值約為 $2
+REGEX	There are ([0-9]+) objects in the ship, totalling at (\\$[0-9]+).	船內共有 $1 件物品，總價值為 $2
+REGEX	Exception occured on terminal while setting node planet info; current node displayPlanetInfo:(.+?)	終端設定星球資訊時發生錯誤，目前節點 displayPlanetInfo：$1
+REGEX	Unable to route the ship currently. It must be in orbit around a moon to route the autopilot.	目前無法設定航線。必須先進入星球軌道才能使用自動駕駛。
+REGEX	Use the main lever at the front desk to enter orbit.	請使用前方控制台的主操縱桿進入軌道。
+REGEX	To learn about any moon, use INFO.	要查看星球資訊，請輸入 「INFO  (資訊)」。
+REGEX	The ship cannot be leaving or landing!	飛船目前無法起飛或降落！
+REGEX	\\[No items in stock!\\]	[目前沒有庫存！]
+REGEX	\\[ALL DATA HAS BEEN CORRUPTED OR OVERWRITTEN\\]	[所有資料已損毀或被覆寫]
+REGEX	([0-9]+) purchased items on route.	已有 $1 件購買物品正在運送中。\n
+REGEX	The delivery vehicle cannot hold more than 12 items\nat a time. Please pick up your items when they land!	運輸載具一次最多只能運送 12 件物品。\n請在物品送達後儘快領取！
+REGEX	[No items available\\]	[沒有可用物品]
+REGEX	This item is not in stock!	此物品目前缺貨！
+REGEX	No data collected on wildlife. Scans are required.	尚未收集任何野生生物資料，請先進行掃描。
+REGEX	No data has been collected on this creature.	尚未收集此生物的資料。
+REGEX	A scan is required.	需要進行掃描。
+REGEX	([0-9]+)% OFF!	$1% 折扣！
+REGEX	\\(Locked\\)	(鎖定)
+REGEX	\\(NEW\\)	(新)
+REGEX	Price:	價格：
+REGEX	mild weather	溫和天氣
+REGEX	DustClouds	塵雲
+REGEX	Rainy	雨天
+REGEX	Stormy	暴風
+REGEX	Foggy	濃霧
+REGEX	Flooded	淹水
+REGEX	Eclipsed	日蝕
+REGEX	dustclouds	塵雲
+REGEX	rainy	雨天
+REGEX	stormy	暴風
+REGEX	foggy	濃霧
+REGEX	flooded	淹水
+REGEX	eclipsed	日蝕
+REGEX	Please CONFIRM or DENY.	請輸入「CONFIRM」或「DENY」。
+REGEX	(.*) joined the ship\\.	$1 已加入飛船。
+REGEX	(.*) started the ship\\.	$1 已啟動飛船。
+REGEX	(.*) was left behind\\.	$1 被留在外面。
+REGEX	(.*) disconnected\\.	$1 已離線。
+REGEX	(.*) was kicked\\.	$1 已被踢出。
+REGEX	Most profitable.	最賺錢員工。
+REGEX	Sustained the most injuries.	受傷最多的員工。
+REGEX	The laziest employee.	最偷懶的員工。
+REGEX	The most paranoid employee.	最神經質的員工。
+REGEX	Random seed	隨機種子
+REGEX	LOADING WORLD...	載入世界中...
+REGEX	[Cooldown: (.+?) sec\\.\\]	[冷卻時間：$1 秒]
+REGEX	A competitive ecosystem supports aggressive lifeforms.	競爭激烈的生態系孕育出具攻擊性的生命體。
+REGEX	Arid. Thick haze, worsened by industrial artifacts.	乾燥。濃厚霧霾，受到工業殘留影響而加劇。
+REGEX	Dangerous entities have been rumored to take residence in the vast network of tunnels.	據傳廣大的地下隧道網絡中棲息著危險生物。
+REGEX	Dominated by a few species.	由少數物種主導。
+REGEX	Ecosystem supports territorial behaviour.	生態系支持強烈的領域性行為。
+REGEX	Expansive. Constant rain.	廣闊。持續降雨。
+REGEX	Frozen, rocky. Its planet orbits a white dwarf star.	冰冷且多岩。其所屬行星圍繞白矮星運行。
+REGEX	Humid. Rough terrain. Teeming with plant-life.	潮濕。地形崎嶇。植物生長茂密。
+REGEX	Jagged and weathered terrain.	崎嶇且風化嚴重的地形。
+REGEX	No land masses. Continual storms.	無陸地。持續風暴。
+REGEX	Unlikely for complex life to exist	不太可能存在複雜生命體
+REGEX	Where the Company resides.	公司所在地。
+REGEX	Abandoned	已廢棄
+REGEX	Diverse	多樣
+REGEX	None	無
+REGEX	Safe	安全
+REGEX	Unknown	未知
+REGEX	CELESTIAL BODY	天體
+REGEX	Orbiting	軌道運行
+REGEX	POPULATION	人口
+REGEX	CONDITIONS	環境
+REGEX	FAUNA	生態
+REGEX	Weather	天氣
+REGEX	Walkie-talkie	$& (對講機)
+REGEX	Flashlight	$& (手電筒)
+REGEX	Shovel	$& (鏟子)
+REGEX	Lockpicker	$& (開鎖器)
+REGEX	Pro-flashlight	$& (高級手電筒)
+REGEX	Stun grenade	$& (震撼彈)
+REGEX	Boombox	$& (音響)
+REGEX	TZP-Inhalant	$& (TZP 吸入劑)
+REGEX	Zap gun	$& (電擊槍)
+REGEX	Jetpack	$& (噴射背包)
+REGEX	Extension ladder	$& (伸縮梯)
+REGEX	Radar-booster	$& (雷達增幅器)
+REGEX	Spray paint	$& (噴漆)
+REGEX	Weed killer	$& (除草劑)
+REGEX	Belt bag	$& (腰包)
+REGEX	Cruiser	$& (巡航車)
+
+# ===== Auto-added missing REGEX rules =====
+# Added at: 2026-04-23 20:45:32
+REGEX	Loud horn	$& (大聲喇叭)
+REGEX	loud horn	$& (大聲喇叭)
+REGEX	Signal Translator	$& (訊號翻譯器)
+REGEX	signal translator	$& (訊號翻譯器)
+REGEX	Teleporter	$& (傳送器)
+REGEX	teleporter	$& (傳送器)
+REGEX	Inverse Teleporter	$& (反向傳送器)
+REGEX	inverse teleporter	$& (反向傳送器)
+REGEX	Happy Monday	祝你星期一愉快
+REGEX	Happy Tuesday	祝你星期二愉快
+REGEX	Happy Wednesday	祝你星期三愉快
+REGEX	Happy Thursday	祝你星期四愉快
+REGEX	Happy Friday	祝你星期五愉快
+REGEX	Happy Saturday	祝你星期六愉快
+REGEX	Happy Sunday	祝你星期日愉快
+REGEX	\\bMonday\\b	星期一
+REGEX	\\bTuesday\\b	星期二
+REGEX	\\bWednesday\\b	星期三
+REGEX	\\bThursday\\b	星期四
+REGEX	\\bFriday\\b	星期五
+REGEX	\\bSaturday\\b	星期六
+REGEX	\\bSunday\\b	星期日

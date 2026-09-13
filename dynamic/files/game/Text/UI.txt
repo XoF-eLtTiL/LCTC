@@ -1,0 +1,226 @@
+﻿# UI
+
+
+(Dead)=（死亡）
+BROADCASTED SPECIAL CODE=廣播特別代碼
+Blast=爆破
+Bludgeoning=重擊
+CREW:=隊伍：
+Cancel=取消
+Change suit=更換服裝
+DEADLINE:\n NOW=截止日期：\n現在！！
+DOOR HYDRAULICS:=艙門液壓：
+Door controls=艙門控制器
+EMPLOYEE RANK=員工等級
+Fines=罰款
+Gravity=摔死
+Gunshots=槍殺
+HANDS FULL=你無法再拿更多物品
+Inventory full!=背包已滿！
+Kick=踢出
+Locked=鎖定
+
+# UI
+
+Oxygen critically low!=氧氣量非常低！
+Mauling=撕咬
+NEW PROFIT QUOTA:=新的目標金額：
+Option A=選項 A
+PERFORMANCE REPORT=表現報告
+Paycheck!=薪水！
+Press "/" to talk.=按 「/」 打字。
+Push to talk:=按下說話：
+QUOTA REACHED!=金額已達到了！
+Quota=金額
+RECEIVING SIGNAL=接收信號
+Stats=統計
+Strangulation=勒斃
+Suffocation=窒息
+The server host disconnected.=伺服器房主已中斷連線。
+Typing...=輸入中...
+Value: ???=價值： ？？？
+Version 45 is out!=版本 45 發布了！
+Welcome! Version 45 is out now.\nOthers must update their game to play with you on this version.\n\n\nGood luck!=歡迎！\n版本 45 現在已發布。\n其他人必須更新他們的遊戲才能在此版本上與你一起玩。\n祝你好運！
+[LIFE SUPPORT: OFFLINE]=[生命維持系統：離線]
+r:"^(.*?)\s*\n\s*AM"=上午 $1
+r:"^(.*?)\s*\n\s*PM"=下午 $1
+r:"^(.+) (Days|Day) Left$"=剩餘 $1 天
+r:"^(.+) casualties: (.+)\n\((.+) bodies recovered\)$"=$1 人傷亡：$2\n（恢復 $3 個屍體）
+r:"^(.+?)\s*started the ship."=$1 啟動了飛船
+r:"^(.+?)\s*was left behind."=$1 被拋棄了
+r:"^(Current input device: \n)(.*)$"=當前麥克風裝置：$2
+r:"^([0-9]+) lb$"=$1 磅
+r:"^([\w\W]{1,14})$"=$1
+r:"^([\w\W]{1,14})\s*disconnected(.+?)$"=$1 已離開飛船
+r:"^([\w\W]{1,14})\s*joined the ship(.+?)$"=$1 來到飛船
+r:"^(\$[0-9]+)\nDays: ([0-9]+)$"=$1\n天數: $2
+r:"^Body of (.+)$"=$1 的屍體
+r:"^CELESTIAL BODY: (.+?)$"=星球：$1
+r:"^Casualties \((.+)\): (.+)$"=傷亡 ($1)：$2
+r:"^DEADLINE:\n([0-9]+) Days$"=截止日期：\n$1 天
+r:"^DUE: (\$[0-9]+)$"=罰款：$1
+r:"^Days on the job: (.+?)\nScrap value collected: (.+?)\nDeaths: (.+?)\nSteps taken: (.+?)$"=總工作日數：$1\n總收集金額：$2\n總死亡次數：$3\n總步數：$4
+r:"^File ([0-9]+)$"=檔案 $1
+r:"^Found journal entry: (.+)$"=找到日記： $1 
+r:"^Kick out (.+?)?$"=你確定要踢出 $1 ？
+r:"^MONITORING: (.+)$"=正在監控： $1
+r:"^Overtime bonus: (.+)$"=加班獎金： $1
+r:"^PROFIT QUOTA:\n(\$[0-9]+) / (\$[0-9]+)$"=目標金額：\n$1 / $2
+r:"^Picking lock: (.+?)sec"=正在開鎖：$1秒 
+r:"^Random seed: ([0-9]+)$"=隨機種子：$1
+r:"^SHIP: (.+)$"=總價值： $1
+r:"^TOTAL: (.+)$"=總價值： $1
+r:"^VALUE: (.+)"=價值：$1
+r:"(?i)^Value: (.+)"=價值：$1
+r:"^WARNING! Please return by (.+). A vote has been cast, and the autopilot ship will leave early.$"=警告！\n請在 $1 之前返回。\n投票已經進行，自動駕駛船將提早離開。
+r:"^\'(.+)\'$"=「$1」
+r:"^\(([0-9]+)/([0-9]+) Votes\)$"=( $1/$2 票)
+r:"^\(Spectating: (.+)\)$"=(正在旁觀： $1)
+r:"^\(Spectating: \)$"=(正在旁觀： )
+r:"^\:$"=：
+r:"^\[Cooldown: (.+) sec.\]$"=[冷卻時間剩下 $1 秒]
+r:"^\[MODDED\](.+?)$"=[模組服]$1
+r:"^\s*\:\s*$"=：
+sr:"^Cause of death: (.+)$"=死亡原因： $1
+sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)$"=地點：$1\n人口：$2\n環境：$3\n生態圈：$4
+sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\n(.+?)$"=地點：$1\n人口：$2\n環境：$3\n生態圈：$4\n$5
+sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\nWeather: (.+?)$"=地點：$1\n人口：$2\n環境：$3\n生態圈：$4\n天氣：$5
+sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: \nWeather: (.+?)$"=地點：$1\n人口：$2\n環境：$3\n生態圈：\n天氣：$4
+sr:"^Orbiting: (.+?)\nPOPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: $"=地點：$1\n人口：$2\n環境：$3\n生態圈：
+sr:"^POPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)$"=人口：$1\n環境：$2\n生態圈：$3
+sr:"^POPULATION: (.+?)\nCONDITIONS: (.+?)\nFAUNA: (.+?)\n(.+?)$"=人口：$1\n環境：$2\n生態圈：$3\n$4
+
+
+# Hint
+
+
+ALERT!=警報！
+AS MUCH PROFIT AS POSSIBLE=盡可能\n賺到更多錢
+Alert! The autopilot is leaving due to dangerous conditions.=警報！\n自動駕駛儀由於危險條件而離開。
+Buy flashlights and travel to new planets!=購買手電筒並前往新星球！
+CRITICAL INJURY=重大傷害
+Can't stay closed forever=這沒辦法一直關著門
+Got scrap!=得到廢品！
+HIGH FEVER DETECTED!!!\\nFOREIGN BODIES DETECTED!!!\\nIRREGULAR BRAINWAVE DETECTED!!!=偵測到高燒！！！\\n偵測到異物！！！\\n偵測到腦波異常！！！
+Item collected!=物品已收集！
+Item stored!=物品已儲存！
+Items missed!=錯過拿取物品！
+LOADING WORLD...=正在載入世界...
+New creature data sent to terminal!=新的生物數據已發送至終端機！
+PILOT COMPUTER=飛船自動系統
+SYSTEMS ONLINE=系統上線
+Sell scrap for cash.=賣廢品換現金。
+Ship leaving in one hour=飛船在一小時內離開
+Swap pages\n[Q / E]=換頁\n[Q / E]
+TIP:=提示：
+TO MEET PROFIT QUOTA=達到目標金額
+The Company must minimize risk of damage to proprietary hardware. Goodbye!=公司必須最大程度地降低對專有硬體損害的風險。\n再見！
+The autopilot will now attempt to fly to the closest safe spaceport. Your items have been lost.=自動駕駛儀現在將嘗試飛向最近的安全太空港。\n你的物品遺失了。
+The vehicle returned with your purchased items. Our delivery fee cannot be refunded.=送貨載具已帶回你購買的物品。\n運費無法退還。
+To sell, use the terminal to route the ship to the company building.=如要出售，請使用終端機將飛船導航到公司。
+Use the ship computer terminal to access secure doors.=使用飛船電腦終端機來解鎖安全門。
+VISIBILITY LOW!\n\nSteam leak detected in area=能見度低！\n\n區域內檢測到蒸汽洩漏
+Voted for ship to leave early=投票決定提早離開
+WARNING!!! The autopilot ship will leave at midnight. Please return quickly.=警告！！！\n自動駕駛船將在午夜離開。\n請迅速返回。
+Waiting for crew...=等待其他船員...
+Warning! No response from crew, which has not returned. Emergency code activated.=警告！\n沒有船員的回應，尚未返回。\n緊急代碼啟動。
+YOU ARE FIRED.=你被解僱了
+You did not meet the profit quota before the deadline.=你未能在截止日期前達到目標金額
+You have 0 days left to meet the quota. Use the terminal to route to the company and sell.=你還剩 0 天的時間來達到目標金額。\n使用終端機來前往公司並出售廢料。
+r:"^Welcome to\n(.+)$"=歡迎來到\n$1
+
+# Item hint
+
+Training manual=訓練手冊
+Useful info!=實用資訊！
+Terminal=終端機
+Lands the ship.=讓飛船著陸。
+
+
+# Level
+
+Boss=老闆
+Leader=領導者
+Intern=實習生
+Employee=正式員工
+Part-timer=工讀生
+
+# Start Menu/Setting
+
+
+(Cannot hold until ship has landed)=(無法進行，直到飛船著陸)
+(Requires battery-powered item)=(需要使用電池供電的物品)
+
+Value: =價值：
+
+Charges batteries=為使用電池的物品充電
+
+# Result
+sr:"(?i)^Notes\s?:\s?(?:\\n(\*\s*.*?))?(?:\\n(\*\s*.*?))?(?:\\n(\*\s*.*?))?\s*[^\\n]$"=筆記：\n$1\n$2\n$3
+sr:"(?i)^Notes\s?:\s?(?:\\n(\*\s*.*?))?(?:\\n(\*\s*.*?))?(?:\\n(\*\s*.*?))?\s*[\\n]$"=筆記：\n$1\n$2\n$3
+
+
+* Most lazy employee=* 最懶惰的員工
+* Most lazy employee.=* 最懶惰的員工
+* The laziest employee=* 最懶惰的員工
+* The laziest employee.=* 最懶惰的員工
+
+
+* Most profitable=* 最會賺錢的員工
+* Most profitable.=* 最會賺錢的員工
+
+* Most paranoid employee=* 最固執的員工
+* Most paranoid employee.=* 最固執的員工
+* The most paranoid employee=* 最固執的員工
+* The most paranoid employee.=* 最固執的員工
+
+
+* Sustained the most injuries=* 受傷嚴重的員工
+* Sustained the most injurie=* 受傷嚴重的員工
+* Sustained the most injurie.=* 受傷嚴重的員工
+* Sustained the most injuries.=* 受傷嚴重的員工
+
+
+Right-click to scan objects in the ship for info.=單點滑鼠右鍵掃描船上的物品以獲取資訊。
+The file will NOT save! Your ship must be in orbit.=無法儲存檔案！飛船必須位於軌道上。
+Press B to move and place objects in the ship, E to cancel.=按 B 移動並放置飛船內的物品，按 E 取消。
+(See how you compare to friends in the main menu leaderboard!)=（請查看主選單排行榜來跟好友比較排名！）
+
+To read the manual:=閱讀手冊：
+Press Z to inspect closely. Press Q and E to flip the pages.=按 Z 可以仔細檢查。\n按 Q 和 E 翻頁。
+
+Wheater alert!=天氣異常警告！
+You have landed in an eclipse. Exercise caution!=你現在所在的星球是日蝕狀態。\n請謹慎行事！
+
+You can see stored items in the terminal by using command 'STORAGE'=你可以透過終端機輸入「STORAGE」找到剛剛儲存的物品！
+File incompatible!=存檔不相容！
+Game has already started!=遊戲已經開始！
+
+Alt QuickSwitch=Alt 快速切換
+Doesn't support binding to this device=不支援與此設備綁定
+Some of your save files may not be compatible with version 50 and may be corrupted if you play them.=部分存檔可能與第 50 版不相容，載入後可能損毀。
+
+
+r:"(?i)^SHIP: (.+)$"=總價值： $1
+
+r:"^Value: (.+)"=價值：$1
+
+
+# Hint
+
+ENTERING THE ATMOSPHERE...=進入大氣層中...
+Drop your metallic items now! A static charge has been detected. You have seconds left to live.=立即放下金屬物品！\n已經檢測到靜態電荷。\n你還有幾秒鐘可以生存。
+
+
+# Item hint
+
+
+# Level
+
+
+# Start Menu/Setting
+
+
+# Result
+sr:"^Notes\s?:\s?(?:\\n(\*\s*.*?))?(?:\\n(\*\s*.*?))?(?:\\n(\*\s*.*?))?\s*[^\\n]$"=筆記：\n$1\n$2\n$3
+sr:"^Notes\s?:\s?(?:\\n(\*\s*.*?))?(?:\\n(\*\s*.*?))?(?:\\n(\*\s*.*?))?\s*[\\n]$"=筆記：\n$1\n$2\n$3
